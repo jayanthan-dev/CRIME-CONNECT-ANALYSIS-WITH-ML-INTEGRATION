@@ -4,7 +4,11 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import Layout from './components/Layout';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
- 
+import CrimeMap from './pages/CrimeMap';
+import Reports from './pages/Reports';
+import Analytics from './pages/Analytics';
+import Officers from './pages/Officers';
+import Settings from './pages/Settings';
 
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { user, isLoading } = useAuth();
@@ -54,15 +58,15 @@ function AppRoutes() {
         </ProtectedRoute>
       }>
         <Route index element={<Dashboard />} />
-        {/* <Route path="crime-map" element={<CrimeMap />} /> */}
-        {/* <Route path="reports" element={<Reports />} /> */}
-        {/* <Route path="analytics" element={<Analytics />} /> */}
+        <Route path="crime-map" element={<CrimeMap />} />
+        <Route path="reports" element={<Reports />} />
+        <Route path="analytics" element={<Analytics />} />
         <Route path="officers" element={
           <AdminRoute>
-            {/* <Officers /> */}
+            <Officers />
           </AdminRoute>
         } />
-        {/* <Route path="settings" element={<Settings />} /> */}
+        <Route path="settings" element={<Settings />} />
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

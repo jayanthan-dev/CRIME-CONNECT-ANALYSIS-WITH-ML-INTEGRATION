@@ -11,7 +11,7 @@ const Login: React.FC = () => {
   const { login } = useAuth();
 
   // Animation state
-  const [animationComplete, setAnimationComplete] = useState(false);
+  const [, setAnimationComplete] = useState(false);
 
   useEffect(() => {
     // Set animation as complete after initial load

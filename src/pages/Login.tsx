@@ -109,7 +109,7 @@ const Login: React.FC = () => {
         >
           <div className="flex items-center bg-white/10 backdrop-blur-md px-4 py-2 rounded-full shadow-lg">
             <Shield className="text-blue-400 mr-2" size={18} />
-            <span className="text-white text-sm font-medium">Thoothukudi Police Department</span>
+            <span className="text-white text-sm font-medium"> Police Department</span>
           </div>
         </motion.div>
 
@@ -361,7 +361,7 @@ const Login: React.FC = () => {
             />
             <p className="text-xs text-gray-400 flex items-center justify-center">
               <Shield size={12} className="text-blue-400 mr-1" />
-              Thoothukudi Police Department • Secure Login
+               Police Department • Secure Login
             </p>
           </motion.div>
         </motion.div>

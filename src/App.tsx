@@ -3,8 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import Layout from './components/Layout';
 import Login from './pages/Login';
- import CrimeMap from './pages/CrimeMap';
- import Analytics from './pages/Analytics';
+import Dashboard from './pages/Dashboard';
  
 
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -49,7 +48,22 @@ function AppRoutes() {
 
   return (
     <Routes>
-       
+      <Route path="/" element={
+        <ProtectedRoute>
+          <Layout />
+        </ProtectedRoute>
+      }>
+        <Route index element={<Dashboard />} />
+        {/* <Route path="crime-map" element={<CrimeMap />} /> */}
+        {/* <Route path="reports" element={<Reports />} /> */}
+        {/* <Route path="analytics" element={<Analytics />} /> */}
+        <Route path="officers" element={
+          <AdminRoute>
+            {/* <Officers /> */}
+          </AdminRoute>
+        } />
+        {/* <Route path="settings" element={<Settings />} /> */}
+      </Route>
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );

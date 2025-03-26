@@ -415,7 +415,24 @@ const Reports: React.FC = () => {
               />
             </div>
 
-            
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Incident Type*</label>
+              <select
+                required
+                className="w-full rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                value={formData.incident_type}
+                onChange={e => setFormData(prev => ({ ...prev, incident_type: e.target.value }))}
+              >
+                <option value="">Select incident type</option>
+                <option value="Theft">Theft</option>
+                <option value="Assault">Assault</option>
+                <option value="Burglary">Burglary</option>
+                <option value="Vandalism">Vandalism</option>
+                <option value="Fraud">Fraud</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">Incident Description*</label>

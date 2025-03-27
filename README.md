@@ -38,9 +38,8 @@ Ensure you have the following software installed on your machine:
 
 - **Node.js** (v16 or higher)
 - **npm** or **yarn**
-- # video
-- https://www.loom.com/share/48e8ff0820a2413fb24647d3542c6274?t=19&sid=30c78200-d62d-421a-a2ac-088c3845ca58
 
+ 
 
 
 #ppt

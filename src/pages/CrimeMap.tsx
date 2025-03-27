@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Map, { Marker, Popup } from 'react-map-gl';
-import { Calendar, Users } from 'lucide-react';
+import {  Users } from 'lucide-react';
 import { MapPin } from "lucide-react";
 import 'mapbox-gl/dist/mapbox-gl.css';
 

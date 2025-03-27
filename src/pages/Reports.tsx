@@ -19,7 +19,7 @@ const Reports: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedFIR, setSelectedFIR] = useState<any>(null);
-  const FIRsPerPage = 9;
+  const FIRsPerPage = 6;
 
   const sampleFIRs = Array.from({ length: 50 }, (_, index) => ({
     id: `FIR-${1000 + index}`,

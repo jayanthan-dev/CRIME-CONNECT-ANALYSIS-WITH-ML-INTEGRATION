@@ -52,6 +52,9 @@ Ensure you have the following software installed on your machine:
  #Workflow 
   https://claude.site/artifacts/8e41fe9f-1601-4b84-8226-39e3172b7af6
   
+#Docs
+https://docs.google.com/document/d/1qD4dkzJca0FtViJ-aQ5No2evbQCkDl4dwPAd0x9YOYY/edit?usp=sharing
+  
 ### Clone the Repository
 
 ```bash

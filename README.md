@@ -47,6 +47,9 @@ Ensure you have the following software installed on your machine:
 [Crime Hotspot Mapping (2).pdf](https://github.com/user-attachments/files/19477657/Crime.Hotspot.Mapping.2.pdf)
 
  
+ #Workflow 
+  https://claude.site/artifacts/8e41fe9f-1601-4b84-8226-39e3172b7af6
+  
 ### Clone the Repository
 
 ```bash

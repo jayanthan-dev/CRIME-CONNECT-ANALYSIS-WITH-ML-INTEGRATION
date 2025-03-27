@@ -481,6 +481,7 @@ const Officers: React.FC = () => {
  email: officer.email || 'N/A',
  isIPS: officer.name.includes('IPS'),
  isHeadOfficer: officer.division === 'Head Officers'
+ 
  }));
 
  const filteredOfficers = officers.filter((officer) => {

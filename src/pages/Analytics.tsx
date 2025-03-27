@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import {
-  LineChart, Line, AreaChart, Area, PieChart, Pie, 
+   AreaChart, Area, PieChart, Pie, 
   RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar,
-  ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Legend, 
+   XAxis, YAxis, CartesianGrid, Tooltip, Legend, 
   ResponsiveContainer, Cell, BarChart, Bar
 } from 'recharts';
 import { 
   Calendar, ChevronDown, Filter, BarChart3, Activity, Layers, 
-  AlertCircle, Clock, Shield, TrafficCone, TrendingUp, Users, 
+  AlertCircle, Clock, TrendingUp, Users, 
   Map, CheckCircle, Smile, Frown, Meh, Download, RefreshCw, X
 } from 'lucide-react';
 

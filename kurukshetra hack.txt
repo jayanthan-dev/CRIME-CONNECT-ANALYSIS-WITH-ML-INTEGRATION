@@ -1,56 +1,56 @@
-﻿CRIME HOTSPOT MAPPING 
+CRIME HOTSPOT MAPPING 
 
 
 
 
 
-DEVELOPED BY JAYANTHAN 
+advanced by using JAYANTHAN 
 
 
 
-PROJECT DESCRIPTION :
+challenge DESCRIPTION :
 # CrimeHotspotMapping
 
 
-## Project Overview
+## venture evaluate
 
 
-The **CrimeHotspotMapping** project aims to develop an advanced crime analysis and prediction system that leverages data to identify and monitor crime hotspots within a city. The system will analyze various sources of data, including distress call records and historical crime data, to identify patterns in crime frequency, type, time of occurrence, and geographic location. By doing so, the tool will provide valuable insights to law enforcement agencies, enabling them to allocate resources more effectively and implement proactive strategies for crime prevention.
+The **CrimeHotspotMapping** undertaking aims to increase a sophisticated crime analysis and prediction device that leverages statistics to discover and screen crime hotspots within a city. The gadget will examine diverse resources of facts, inclusive of distress call data and historic crime facts, to perceive styles in crime frequency, type, time of incidence, and geographic vicinity. with the aid of doing so, the device will provide valuable insights to regulation enforcement businesses, enabling them to allocate assets more efficaciously and implement proactive techniques for crime prevention.
 
 
-## Features
+## functions
 
 
-- **Crime Trend Analysis:**
- - Analyzes historical crime data to identify patterns and trends over time.
- - Identifies high-crime areas and periods of increased criminal activity.
- - **Real-time Updates:**
- - Provides real-time updates on active crime hotspots based on live data.
+- **Crime trend evaluation:**
+ - Analyzes ancient crime data to become aware of patterns and tendencies over the years.
+ - Identifies excessive-crime areas and durations of extended criminal activity.
+ - **real-time Updates:**
+ - affords actual-time updates on energetic crime hotspots primarily based on live records.
  - **Predictive Analytics:**
- - Uses historical data and machine learning models to predict potential future crime hotspots.
+ - makes use of historical records and system studying models to are expecting capability destiny crime hotspots.
  - **Geographic Mapping:**
- - Visualizes crime data on maps to help authorities understand geographic crime distribution.
- - **Crime Type Analysis:**
- - Analyzes the frequency and types of crimes occurring in specific locations, assisting in focused policing efforts.
- - **Resource Allocation Recommendations:**
- - Suggests areas for focused policing or community outreach based on data-driven insights.
- - **Reports & Visualizations:**
- - Generates detailed reports and visual dashboards to assist in policy-making, resource planning, and crime prevention strategies.
+ - Visualizes crime data on maps to assist authorities understand geographic crime distribution.
+ - **Crime type evaluation:**
+ - Analyzes the frequency and kinds of crimes happening in particular places, helping in targeted policing efforts.
+ - **aid Allocation pointers:**
+ - indicates regions for centered policing or community outreach based on information-driven insights.
+ - **reports & Visualizations:**
+ - Generates distinctive reports and visible dashboards to assist in coverage-making, useful resource planning, and crime prevention techniques.
 
 
-## Installation
+## installation
 
 
-To run the **CrimeHotspotMapping** system locally, follow these steps as listed below:
+To run the **CrimeHotspotMapping** device locally, follow these steps as listed underneath:
 
 
-### Prerequisites
+### stipulations
 
 
-Ensure you have the following software installed on your machine:
+make certain you have got the following software established for your device:
 
 
-- **Node.js** (v16 or higher)
+- **Node.js** (v16 or better)
 - **npm** or **yarn**
 
 
@@ -59,15 +59,15 @@ Ensure you have the following software installed on your machine:
 
 
 #ppt
-[Crime Hotspot Mapping (2).pdf](https://github.com/user-attachments/files/19477657/Crime.Hotspot.Mapping.2.pdf)
+[Crime Hotspot Mapping (2).pdf](https://github.com/consumer-attachments/files/19477657/Crime.Hotspot.Mapping.2.pdf)
 
 
 #video
-https://drive.google.com/file/d/1fVoQ3GMF4yDXRXFggYjkDtIArzWF2Jwz/view?usp=sharing
+https://force.google.com/document/d/1fVoQ3GMF4yDXRXFggYjkDtIArzWF2Jwz/view?usp=sharing
 
 
 #Workflow
- https://claude.site/artifacts/8e41fe9f-1601-4b84-8226-39e3172b7af6
+ https://claude.web site/artifacts/8e41fe9f-1601-4b84-8226-39e3172b7af6
  ### Clone the Repository
 
 
@@ -87,85 +87,85 @@ npm run dev
 SOUCE CODES : 
                      : 
 1. import React from 'react';
-2. import { motion } from 'framer-motion';
+2. import { movement } from 'framer-motion';
 3. import { Outlet } from 'react-router-dom';
 4. import Sidebar from './Sidebar';
-5. import Navbar from './Navbar';
-6. 7. const Layout: React.FC = () => {
-8.  return (
-9.    <div className="flex h-screen bg-gray-100">
-10.      <Sidebar />
-11.      <div className="flex-1 flex flex-col overflow-hidden">
-12.        <Navbar />
-13.        <motion.main
+five. import Navbar from './Navbar';
+6. 7. const layout: React.FC = () => {
+eight.  go back (
+9.    
+10.      
+eleven.      
+12.        
+13.        
 14.          className="flex-1 overflow-x-hidden overflow-y-auto bg-gray-100"
 15.          initial={{ opacity: 0, y: 20 }}
 16.          animate={{ opacity: 1, y: 0 }}
 17.          transition={{ duration: 0.5 }}
 18.        >
-19.          <div className="container mx-auto px-6 py-8">
-20.            <Outlet />
-21.          </div>
-22.        </motion.main>
-23.      </div>
-24.    </div>
+19.          
+20.            
+21.          
+22.        
+23.      
+24.    
 25.  );
 26. }
-27. 28. export default Layout
+27. 28. export default layout
 29. 
 
 import React from 'react';
-import { Bell, Search, User } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { Bell, seek, consumer } from 'lucide-react';
+import { movement } from 'framer-motion';
 import { useAuth } from '../context/AuthContext';
 
 
 const Navbar: React.FC = () => {
- const { user } = useAuth();
-  return (
-   <motion.nav
+ const { person } = useAuth();
+  go back (
+   
      className="bg-white shadow-lg"
      initial={{ y: -100 }}
      animate={{ y: 0 }}
      transition={{ duration: 0.5 }}
    >
-     <div className="mx-auto px-6 py-3">
-       <div className="flex items-center justify-between">
-         <div className="flex items-center">
-           <span className="text-xl font-semibold text-gray-800">
+     
+       
+         
+           
              CrimeSpot - Thoothukudi Police
-           </span>
-         </div>
+           
+         
         
-         <div className="flex items-center gap-4">
-           <div className="relative">
-             <input
+         
+           
+             
                type="text"
                placeholder="Search..."
                className="w-64 px-4 py-2 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500"
              />
-             <Search className="absolute right-3 top-2.5 text-gray-400" size={20} />
-           </div>
+             
+           
           
-           <button className="p-2 hover:bg-gray-100 rounded-full relative">
-             <Bell size={20} />
-             <span className="absolute top-0 right-0 h-4 w-4 bg-red-500 rounded-full text-xs text-white flex items-center justify-center">
-               3
-             </span>
-           </button>
+           
+             
+             
+               three
+             
+           
           
-           <div className="flex items-center gap-2">
-             <span className="text-sm font-medium text-gray-700">
-               {user?.name} ({user?.role})
-             </span>
-             <button className="p-2 hover:bg-gray-100 rounded-full">
-               <User size={20} />
-             </button>
-           </div>
-         </div>
-       </div>
-     </div>
-   </motion.nav>
+           
+             
+               {person?.call} ({user?.function})
+             
+             
+               
+             
+           
+         
+       
+     
+   
  );
 
 
@@ -178,13 +178,13 @@ export default Navbar;
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import {
- Home,
+ home,
  Map,
  FileText,
- Users,
+ customers,
  Settings,
  BarChart2,
- Shield,
+ protect,
  LogOut
 } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -192,87 +192,87 @@ import { useAuth } from '../context/AuthContext';
 
 
 const Sidebar: React.FC = () => {
- const { user, logout } = useAuth();
+ const { consumer, logout } = useAuth();
 
 
 
 
  const menuItems = [
-   { icon: Home, label: 'Dashboard', path: '/' },
-   { icon: Map, label: 'Crime Map', path: '/crime-map' },
-   { icon: FileText, label: 'Reports', path: '/reports' },
-   { icon: BarChart2, label: 'Analytics', path: '/analytics' },
-   ...(user?.role === 'admin' ? [{ icon: Users, label: 'Officers', path: '/officers' }] : []),
-   { icon: Settings, label: 'Settings', path: '/settings' },
+   { icon: domestic, label: 'Dashboard', route: '/' },
+   { icon: Map, label: 'Crime Map', route: '/crime-map' },
+   { icon: FileText, label: 'reviews', course: '/reviews' },
+   { icon: BarChart2, label: 'Analytics', route: '/analytics' },
+   ...(user?.function === 'admin' ? [{ icon: Users, label: 'Officers', path: '/officers' }] : []),
+   { icon: Settings, label: 'Settings', course: '/settings' },
  ];
 
 
- return (
-   <motion.div
+ go back (
+   
      className="bg-[#1a237e] text-white w-64 flex flex-col"
      initial={{ x: -250 }}
      animate={{ x: 0 }}
      transition={{ duration: 0.5 }}
    >
-     <div className="p-6 flex items-center gap-3">
-       <Shield size={32} />
-       <span className="text-xl font-bold">CrimeSpot </span>
-     </div>
+     
+       
+       CrimeSpot 
+     
     
-     <nav className="flex-1 px-4 py-6">
+     
        {menuItems.map((item) => (
-         <NavLink
+         
            key={item.path}
            to={item.path}
            className={({ isActive }) =>
-             `flex items-center gap-4 px-4 py-3 rounded-lg transition-colors ${
-               isActive ? 'bg-white/10' : 'hover:bg-white/5'
+             `flex gadgets-center gap-four px-four py-3 rounded-lg transition-colors ${
+               isActive ? 'bg-white/10' : 'hover:bg-white/five'
              }`
            }
          >
-           <item.icon size={20} />
-           <span>{item.label}</span>
-         </NavLink>
+           
+           {item.label}
+         
        ))}
-     </nav>
+     
     
-     <div className="p-4 border-t border-white/10">
-       <button
+     
+       
          onClick={logout}
          className="flex items-center gap-4 px-4 py-3 w-full rounded-lg hover:bg-white/5 transition-colors"
        >
-         <LogOut size={20} />
-         <span>Logout</span>
-       </button>
-     </div>
-   </motion.div>
+         
+         Logout
+       
+     
+   
  );
 };
 
 
 export default Sidebar;
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { User, MOCK_USERS } from '../types/auth';
+import { user, MOCK_USERS } from '../types/auth';
 
 
 interface AuthContextType {
- user: User | null;
- login: (email: string, password: string) => Promise<boolean>;
+ user: person | null;
+ login: (e mail: string, password: string) => Promise;
  logout: () => void;
  isLoading: boolean;
 }
 
 
-const AuthContext = createContext<AuthContextType | undefined>(undefined);
+const AuthContext = createContext(undefined);
 
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
- const [user, setUser] = useState<User | null>(null);
- const [isLoading, setIsLoading] = useState(true);
+ const [user, setUser] = useState(null);
+ const [isLoading, setIsLoading] = useState(authentic);
 
 
  useEffect(() => {
-   const storedUser = localStorage.getItem('user');
+   const storedUser = localStorage.getItem('consumer');
    if (storedUser) {
      setUser(JSON.parse(storedUser));
    }
@@ -280,32 +280,32 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
  }, []);
 
 
- const login = async (email: string, password: string): Promise<boolean> => {
+ const login = async (e mail: string, password: string): Promise => {
    const foundUser = MOCK_USERS.find(
-     u => u.email === email && u.password === password
+     u => u.e mail === electronic mail && u.password === password
    );
 
 
    if (foundUser) {
      const { password: _, ...userWithoutPassword } = foundUser;
      setUser(userWithoutPassword);
-     localStorage.setItem('user', JSON.stringify(userWithoutPassword));
-     return true;
+     localStorage.setItem('consumer', JSON.stringify(userWithoutPassword));
+     return proper;
    }
-   return false;
+   go back false;
  };
 
 
  const logout = () => {
    setUser(null);
-   localStorage.removeItem('user');
+   localStorage.removeItem('person');
  };
 
 
- return (
-   <AuthContext.Provider value={{ user, login, logout, isLoading }}>
-     {children}
-   </AuthContext.Provider>
+ go back (
+   
+     {youngsters}
+   
  );
 };
 
@@ -313,14 +313,14 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 export const useAuth = () => {
  const context = useContext(AuthContext);
  if (context === undefined) {
-   throw new Error('useAuth must be used within an AuthProvider');
+   throw new errors('useAuth have to be used within an AuthProvider');
  }
  return context;
 };
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-movement';
 import Map, { Marker, Popup } from 'react-map-gl';
-import {  Users } from 'lucide-react';
+import {  users } from 'lucide-react';
 import { MapPin } from "lucide-react";
 import 'mapbox-gl/dist/mapbox-gl.css';
 
@@ -331,13 +331,13 @@ const MAPBOX_TOKEN = 'pk.eyJ1Ijoic21pbGVlZSIsImEiOiJjbThuejMzMjIwNHJvMmpzNXd6MXN
 const CrimeMap: React.FC = () => {
  // Thoothukudi coordinates (centered on the district)
  const [viewState, setViewState] = useState({
-   latitude: 8.7642,
+   range: eight.7642,
    longitude: 78.1348,
-   zoom: 10,  // Adjusted zoom level to show more of the district
+   zoom: 10,  // Adjusted zoom level to expose extra of the district
  });
 
 
- const [selectedHotspot, setSelectedHotspot] = useState<any>(null);
+ const [selectedHotspot, setSelectedHotspot] = useState(null);
  const [showPatrolModal, setShowPatrolModal] = useState(false);
 
 
@@ -383,40 +383,40 @@ const CrimeMap: React.FC = () => {
  };
 
 
- return (
-   <motion.div
+ go back (
+   
      initial={{ opacity: 0, y: 20 }}
      animate={{ opacity: 1, y: 0 }}
      transition={{ duration: 0.5 }}
      className="space-y-6 p-6"
    >
-     <div className="flex items-center justify-between">
-       <div>
-         <h1 className="text-3xl font-bold text-gray-800">  Thoothukudi Crime Map</h1>
-         <p className="mt-2 text-gray-600">Interactive map of crime hotspots in Thoothukudi district     </p>
-       </div>
-       <button
-         onClick={() => setShowPatrolModal(true)}
-         className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2"
+     
+       
+           Thoothukudi Crime Map
+         Interactive map of crime hotspots in Thoothukudi district     
+       
+       
+         onClick={() => setShowPatrolModal(authentic)}
+         className="bg-blue-six hundred textual content-white px-4 py-2 rounded-lg hover:bg-blue-seven-hundred transition-colorations flex objects-middle hole-2"
        >
-         <Users size={20} />
+         
          Allocate Patrol
-       </button>
-     </div>
+       
+     
 
 
-     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-       <div className="lg:col-span-2">
-         <div className="bg-white rounded-2xl shadow-lg h-[600px]">
-           <Map
+     
+       
+         
+           
              {...viewState}
              onMove={(evt) => setViewState(evt.viewState)}
              mapStyle="mapbox://styles/mapbox/streets-v11"
              mapboxAccessToken={MAPBOX_TOKEN}
-             style={{ width: '100%', height: '100%', borderRadius: '1rem' }}
+             fashion={{ width: '100%', peak: 'one hundred%', borderRadius: '1rem' }}
            >
              {MOCK_CRIME_DATA.hotspots.map((hotspot) => (
-               <Marker
+               
                  key={hotspot.id}
                  latitude={hotspot.lat}
                  longitude={hotspot.lng}
@@ -425,38 +425,38 @@ const CrimeMap: React.FC = () => {
                    setSelectedHotspot(hotspot);
                  }}
                >
-                 <MapPin className="text-red-500 w-8 h-8 -translate-x-1/2 -translate-y-1/2 cursor-pointer hover:text-red-600 transition-colors" />
-               </Marker>
+                 
+               
              ))}
             
              {selectedHotspot && (
-               <Popup
+               
                  latitude={selectedHotspot.lat}
                  longitude={selectedHotspot.lng}
                  onClose={() => setSelectedHotspot(null)}
-                 closeButton={true}
+                 closeButton={authentic}
                  closeOnClick={false}
                  anchor="bottom"
                >
-                 <div className="p-4">
-                   <h3 className="font-semibold text-gray-800">{selectedHotspot.location}</h3>
-                   <p className="text-sm text-gray-600">{selectedHotspot.incidents} incidents reported</p>
-                   <p className="text-xs text-gray-500 mt-1">Thoothukudi District</p>
-                 </div>
-               </Popup>
+                 
+                   {selectedHotspot.vicinity}
+                   {selectedHotspot.incidents} incidents suggested
+                   Thoothukudi District
+                 
+               
              )}
-           </Map>
-         </div>
-       </div>
+           
+         
+       
 
 
-       {/* Rest of your component remains the same */}
-       <div className="space-y-6">
-         <div className="bg-white rounded-2xl shadow-lg p-6">
-           <h2 className="text-lg font-semibold mb-4 text-gray-800">Hotspot Analysis</h2>
-           <div className="space-y-4">
+       {/* relaxation of your thing stays the same */}
+       
+         
+           Hotspot analysis
+           
              {MOCK_CRIME_DATA.hotspots.map((hotspot) => (
-               <div
+               
                  key={hotspot.id}
                  className="p-4 bg-gray-50 rounded-lg cursor-pointer hover:bg-gray-100 transition-colors"
                  onClick={() => {
@@ -469,106 +469,106 @@ const CrimeMap: React.FC = () => {
                    setSelectedHotspot(hotspot);
                  }}
                >
-                 <div className="flex items-center justify-between">
-                   <p className="font-medium text-gray-800">{hotspot.location}</p>
-                   <span className="text-red-500 font-medium">{hotspot.incidents}</span>
-                 </div>
-                 <p className="text-sm text-gray-600 mt-1">High risk area</p>
-               </div>
+                 
+                   {hotspot.place}
+                   {hotspot.incidents}
+                 
+                 high chance vicinity
+               
              ))}
-           </div>
-         </div>
+           
+         
 
 
-         <div className="bg-white rounded-2xl shadow-lg p-6">
-           <h2 className="text-lg font-semibold mb-4 text-gray-800">AI Recommendations</h2>
-           <div className="space-y-4">
-             <div className="p-4 bg-purple-50 rounded-lg">
-               <p className="font-medium text-purple-900">Optimal Patrol Times</p>
-               <p className="text-sm text-purple-700 mt-1">18:00 - 22:00</p>
-             </div>
-             <div className="p-4 bg-blue-50 rounded-lg">
-               <p className="font-medium text-blue-900">Required Officers</p>
-               <p className="text-sm text-blue-700 mt-1">4-6 officers per shift</p>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
+         
+           AI pointers
+           
+             
+               most suitable Patrol instances
+               18:00 - 22:00
+             
+             
+               Required officers
+               4-6 officers in keeping with shift
+             
+           
+         
+       
+     
 
 
-     {/* Modal remains the same */}
+     {/* Modal remains the equal */}
      {showPatrolModal && (
-       <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-         <motion.div
+       
+         
            initial={{ opacity: 0, scale: 0.9 }}
            animate={{ opacity: 1, scale: 1 }}
            className="bg-white rounded-2xl shadow-xl p-6 max-w-md w-full mx-4"
          >
-           <h2 className="text-xl font-semibold mb-4 text-gray-800">Schedule Patrol Meeting</h2>
-           <form className="space-y-4">
-             <div>
-               <label className="block text-sm font-medium text-gray-700">Title</label>
-               <input
+           schedule Patrol assembly
+           
+             
+               name
+               
                  type="text"
                  className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                  placeholder="Patrol Meeting Title"
                />
-             </div>
-             <div className="grid grid-cols-2 gap-4">
-               <div>
-                 <label className="block text-sm font-medium text-gray-700">Date</label>
-                 <input
+             
+             
+               
+                 Date
+                 
                    type="date"
                    className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                  />
-               </div>
-               <div>
-                 <label className="block text-sm font-medium text-gray-700">Time</label>
-                 <input
+               
+               
+                 Time
+                 
                    type="time"
                    className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                  />
-               </div>
-             </div>
-             <div>
-               <label className="block text-sm font-medium text-gray-700">Location</label>
-               <select className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+               
+             
+             
+               vicinity
+               
                  {MOCK_CRIME_DATA.hotspots.map((hotspot) => (
-                   <option key={hotspot.id} value={hotspot.id}>
-                     {hotspot.location}
-                   </option>
+                   
+                     {hotspot.locationarea|region|location|place|vicinity}
+                   
                  ))}
-               </select>
-             </div>
-             <div>
-               <label className="block text-sm font-medium text-gray-700">Description</label>
-               <textarea
+               
+             
+             
+               Description
+               
                  rows={3}
                  className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                  placeholder="Meeting agenda and details..."
-               ></textarea>
-             </div>
-             <div className="flex justify-end gap-4 mt-6">
-               <button
+               >
+             
+             
+               
                  type="button"
                  onClick={() => setShowPatrolModal(false)}
-                 className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                 className="px-four py-2 border border-gray-three hundred rounded-lg textual content-gray-seven-hundred hover:bg-gray-50 transition-colours"
                >
                  Cancel
-               </button>
-               <button
+               
+               
                  type="submit"
                  className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                >
-                 Schedule Meeting
-               </button>
-             </div>
-           </form>
-         </motion.div>
-       </div>
+                 schedule assembly
+               
+             
+           
+         
+       
      )}
-   </motion.div>
+   
  );
 };
 
@@ -581,13 +581,13 @@ import {
  CheckCircle,
  Clock,
  TrendingUp,
- Brain,
+ mind,
  MapPin,
  FileText,
- Users,
- Search,
- Filter,
- Download,
+ users,
+ search,
+ filter,
+ download,
  ChevronDown,
  ChevronUp
 } from 'lucide-react';
@@ -602,12 +602,12 @@ import {
  Line,
  PieChart,
  Pie,
- Cell,
+ mobile,
  ComposedChart
 } from 'recharts';
 
 
-// Expanded Mock Data
+// extended Mock records
 const MOCK_CRIME_DATA = {
  monthly_stats: [
    { month: 'Jan', cases: 120, resolved: 85, unresolved: 35 },
@@ -646,13 +646,13 @@ const MOCK_CRIME_DATA = {
 };
 
 
-const COLORS = ['#4F46E5', '#10B981', '#F59E0B', '#EF4444', '#6366F1'];
+const shades = ['#4F46E5', '#10B981', '#F59E0B', '#EF4444', '#6366F1'];
 
 
 const Dashboard: React.FC = () => {
  const [activeFilter, setActiveFilter] = useState('all');
  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
- const [expandedCard, setExpandedCard] = useState<string | null>(null);
+ const [expandedCard, setExpandedCard] = useState(null);
 
 
  const filterOptions = [
@@ -668,70 +668,70 @@ const Dashboard: React.FC = () => {
 
 
  return (
-   <div className="bg-gray-50 min-h-screen p-4 md:p-8">
-     {/* Mobile Header */}
-     <div className="md:hidden flex justify-between items-center mb-4">
-       <h1 className="text-2xl font-bold text-gray-900">Crime Analytics</h1>
-       <button
+   
+     {/* mobile Header */}
+     
+       Crime Analytics
+       
          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-         className="p-2 rounded-lg bg-gray-200"
+         className="p-2 rounded-lg bg-gray-2 hundred"
        >
-         {isMobileMenuOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
-       </button>
-     </div>
+         {isMobileMenuOpen ?  : }
+       
+     
 
 
-     {/* Mobile Menu */}
+     {/* mobile Menu */}
      {isMobileMenuOpen && (
-       <motion.div
+       
          initial={{ opacity: 0, height: 0 }}
          animate={{ opacity: 1, height: 'auto' }}
          exit={{ opacity: 0, height: 0 }}
          className="md:hidden bg-white rounded-lg shadow-md p-4 mb-4"
        >
-         <div className="flex flex-col space-y-2">
-           <button className="bg-blue-600 text-white px-4 py-2 rounded-lg flex items-center justify-center space-x-2">
-             <Download size={18} />
-             <span>Export</span>
-           </button>
-           <button className="bg-gray-200 text-gray-800 px-4 py-2 rounded-lg flex items-center justify-center space-x-2">
-             <Search size={18} />
-             <span>Search</span>
-           </button>
-         </div>
-       </motion.div>
+         
+           
+             
+             Export
+           
+           
+             
+             seek
+           
+         
+       
      )}
 
 
-     {/* Desktop Header */}
-     <motion.div
+     {/* laptop Header */}
+     
        initial={{ opacity: 0, y: 20 }}
        animate={{ opacity: 1, y: 0 }}
        transition={{ duration: 0.5 }}
        className="hidden md:block mb-8"
      >
-       <div className="flex justify-between items-center">
-         <div>
-           <h1 className="text-3xl md:text-4xl font-bold text-gray-900">Crime Analytics Dashboard</h1>
-           <p className="mt-2 text-gray-600">Comprehensive Crime Insights and Predictive Analysis</p>
-         </div>
-         <div className="flex space-x-2 md:space-x-4">
-           <button className="bg-blue-600 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg flex items-center space-x-2 hover:bg-blue-700 transition text-sm md:text-base">
-             <Download size={18} />
-             <span className="hidden sm:inline">Export Report</span>
-           </button>
-           <button className="bg-gray-200 text-gray-800 px-3 py-2 md:px-4 md:py-2 rounded-lg flex items-center space-x-2 hover:bg-gray-300 transition text-sm md:text-base">
-             <Search size={18} />
-             <span className="hidden sm:inline">Advanced Search</span>
-           </button>
-         </div>
-       </div>
-     </motion.div>
+       
+         
+           Crime Analytics Dashboard
+           complete Crime Insights and Predictive evaluation
+         
+         
+           
+             
+             Export report
+           
+           
+             
+             advanced seek
+           
+         
+       
+     
 
 
-     {/* Stats Cards - Mobile (Horizontal Scroll) */}
-     <div className="md:hidden mb-4 overflow-x-auto pb-2">
-       <div className="flex space-x-4 w-max">
+     {/* Stats playing cards - mobile (Horizontal Scroll) */}
+     
+       
          {[
            {
              id: 'active-cases',
@@ -763,7 +763,7 @@ const Dashboard: React.FC = () => {
              trend: 'ML Model'
            },
          ].map((stat, index) => (
-           <motion.div
+           
              key={stat.id}
              initial={{ opacity: 0, y: 20 }}
              animate={{ opacity: 1, y: 0 }}
@@ -771,22 +771,22 @@ const Dashboard: React.FC = () => {
              className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow p-4 min-w-[120px]"
              onClick={() => toggleCardExpand(stat.id)}
            >
-             <div className="flex flex-col items-center">
-               <div className={`${stat.color} p-2 rounded-lg mb-2`}>
-                 <stat.icon className="text-white" size={18} />
-               </div>
-               <p className="text-sm text-gray-600 text-center">{stat.title || stat.id.split('-').join(' ')}</p>
-               <p className="text-xl font-semibold text-gray-800">{stat.value}</p>
-               <p className="text-xs text-gray-500">{stat.trend}</p>
-             </div>
-           </motion.div>
+             
+               
+                 
+               
+               {stat.name || stat.id.break up('-').be part of(' ')}
+               {stat.value}
+               {stat.fashion}
+             
+           
          ))}
-       </div>
-     </div>
+       
+     
 
 
-     {/* Stats Cards - Desktop */}
-     <div className="hidden md:grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-6 md:mb-8">
+     {/* Stats cards - computing device */}
+     
        {[
          {
            id: 'active-cases',
@@ -821,75 +821,75 @@ const Dashboard: React.FC = () => {
            trend: 'Machine Learning Model'
          },
        ].map((stat, index) => (
-         <motion.div
+         
            key={stat.id}
            initial={{ opacity: 0, y: 20 }}
            animate={{ opacity: 1, y: 0 }}
            transition={{ duration: 0.5, delay: index * 0.1 }}
            className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow p-4 md:p-6"
          >
-           <div className="flex items-center justify-between">
-             <div>
-               <p className="text-sm text-gray-600">{stat.title}</p>
-               <p className="mt-1 text-2xl md:text-3xl font-semibold text-gray-800">{stat.value}</p>
-               <p className="mt-1 text-xs text-gray-500">{stat.trend}</p>
-             </div>
-             <div className={`${stat.color} p-3 rounded-lg`}>
-               <stat.icon className="text-white" size={24} />
-             </div>
-           </div>
-         </motion.div>
+           
+             
+               {stat.identify}
+               {stat.price}
+               {stat.fashion}
+             
+             
+               
+             
+           
+         
        ))}
-     </div>
+     
 
 
-     {/* Main Charts - Mobile (Stacked) */}
-     <div className="md:hidden space-y-4 mb-6">
-       {/* Monthly Trends Card */}
-       <motion.div
+     {/* major Charts - cellular (Stacked) */}
+     
+       {/* monthly traits Card */}
+       
          initial={{ opacity: 0, y: 20 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: 0.4 }}
          className="bg-white rounded-xl shadow-md p-4"
-         onClick={() => toggleCardExpand('monthly-trends')}
+         onClick={() => toggleCardExpand('monthly-traits')}
        >
-         <div className="flex justify-between items-center">
-           <h2 className="text-md font-semibold text-gray-800">Monthly Trends</h2>
-           {expandedCard === 'monthly-trends' ? <ChevronUp /> : <ChevronDown />}
-         </div>
+         
+           monthly trends
+           {expandedCard === 'monthly-developments' ?  : }
+         
          {expandedCard === 'monthly-trends' && (
-           <div className="mt-4 h-64">
-             <ResponsiveContainer width="100%" height="100%">
-               <ComposedChart data={MOCK_CRIME_DATA.monthly_stats}>
-                 <CartesianGrid strokeDasharray="3 3" />
-                 <XAxis dataKey="month" />
-                 <YAxis />
-                 <Tooltip />
-                 <Bar dataKey="cases" fill="#4F46E5" name="Total Cases" />
-               </ComposedChart>
-             </ResponsiveContainer>
-           </div>
+           
+             
+               
+                 
+                 
+                 
+                 
+                 
+               
+             
+           
          )}
-       </motion.div>
+       
 
 
-       {/* Crime Types Card */}
-       <motion.div
+       {/* Crime kinds Card */}
+       
          initial={{ opacity: 0, y: 20 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: 0.5 }}
          className="bg-white rounded-xl shadow-md p-4"
          onClick={() => toggleCardExpand('crime-types')}
        >
-         <div className="flex justify-between items-center">
-           <h2 className="text-md font-semibold text-gray-800">Crime Types</h2>
-           {expandedCard === 'crime-types' ? <ChevronUp /> : <ChevronDown />}
-         </div>
-         {expandedCard === 'crime-types' && (
-           <div className="mt-4 h-64">
-             <ResponsiveContainer width="100%" height="100%">
-               <PieChart>
-                 <Pie
+         
+           Crime sorts
+           {expandedCard === 'crime-kinds' ?  : }
+         
+         {expandedCard === 'crime-kinds' && (
+           
+             
+               
+                 
                    data={MOCK_CRIME_DATA.crime_types}
                    cx="50%"
                    cy="50%"
@@ -899,73 +899,73 @@ const Dashboard: React.FC = () => {
                    nameKey="type"
                    label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
                  >
-                   {MOCK_CRIME_DATA.crime_types.map((entry, index) => (
-                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                   {MOCK_CRIME_DATA.crime_types.map((access, index) => (
+                     
                    ))}
-                 </Pie>
-                 <Tooltip />
-               </PieChart>
-             </ResponsiveContainer>
-           </div>
+                 
+                 
+               
+             
+           
          )}
-       </motion.div>
-     </div>
+       
+     
 
 
-     {/* Main Charts - Desktop */}
-     <div className="hidden md:grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-       <motion.div
+     {/* foremost Charts - computing device */}
+     
+       
          initial={{ opacity: 0, y: 20 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: 0.4 }}
          className="bg-white rounded-xl shadow-md p-6"
        >
-         <div className="flex justify-between items-center mb-4">
-           <h2 className="text-lg font-semibold text-gray-800">Monthly Crime Trends</h2>
-           <div className="flex space-x-2">
+         
+           monthly Crime trends
+           
              {filterOptions.map((option) => (
-               <button
+               
               
                  key={option.value}
-                 onClick={() => setActiveFilter(option.value)}
-                 className={`px-3 py-1 rounded-full text-xs transition ${
+                 onClick={() => setActiveFilter(alternative.price)}
+                 className={`px-three py-1 rounded-complete text-xs transition ${
                    activeFilter === option.value
-                     ? 'bg-blue-600 text-white'
-                     : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                     ? 'bg-blue-six hundred textual content-white'
+                     : 'bg-gray-two hundred text-gray-700 hover:bg-gray-300'
                  }`}
                >
                  {option.label}
-               </button>
+               
              ))}
-           </div>
-         </div>
-         <div className="h-80">
-           <ResponsiveContainer width="100%" height="100%">
-             <ComposedChart data={MOCK_CRIME_DATA.monthly_stats}>
-               <CartesianGrid strokeDasharray="3 3" />
-               <XAxis dataKey="month" />
-               <YAxis />
-               <Tooltip />
-               <Bar dataKey="cases" fill="#4F46E5" name="Total Cases" />
-               <Line type="monotone" dataKey="resolved" stroke="#10B981" name="Resolved" />
-               <Line type="monotone" dataKey="unresolved" stroke="#EF4444" name="Unresolved" />
-             </ComposedChart>
-           </ResponsiveContainer>
-         </div>
-       </motion.div>
+           
+         
+         
+           
+             
+               
+               
+               
+               
+               
+               
+               
+             
+           
+         
+       
 
 
-       <motion.div
+       
          initial={{ opacity: 0, y: 20 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: 0.5 }}
          className="bg-white rounded-xl shadow-md p-6"
        >
-         <h2 className="text-lg font-semibold mb-4 text-gray-800">Crime Type Distribution</h2>
-         <div className="h-80 flex items-center">
-           <ResponsiveContainer width="100%" height="100%">
-             <PieChart>
-               <Pie
+         Crime type Distribution
+         
+           
+             
+               
                  data={MOCK_CRIME_DATA.crime_types}
                  cx="50%"
                  cy="50%"
@@ -974,38 +974,38 @@ const Dashboard: React.FC = () => {
                  fill="#8884d8"
                  dataKey="count"
                  nameKey="type"
-                 label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+                 label={({ name, percent }) => `${name} ${(percentage * 100).toFixed(zero)}%`}
                >
                  {MOCK_CRIME_DATA.crime_types.map((entry, index) => (
-                   <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                   
                  ))}
-               </Pie>
-               <Tooltip />
-             </PieChart>
-           </ResponsiveContainer>
-         </div>
-       </motion.div>
-     </div>
+               
+               
+             
+           
+         
+       
+     
 
 
-     {/* Bottom Section - Mobile (Stacked) */}
-     <div className="md:hidden space-y-4">
+     {/* backside phase - mobile (Stacked) */}
+     
        {/* Hotspots Card */}
-       <motion.div
+       
          initial={{ opacity: 0, y: 20 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: 0.6 }}
          className="bg-white rounded-xl shadow-md p-4"
          onClick={() => toggleCardExpand('hotspots')}
        >
-         <div className="flex justify-between items-center">
-           <h2 className="text-md font-semibold text-gray-800">Hotspots</h2>
-           {expandedCard === 'hotspots' ? <ChevronUp /> : <ChevronDown />}
-         </div>
+         
+           Hotspots
+           {expandedCard === 'hotspots' ?  : }
+         
          {expandedCard === 'hotspots' && (
-           <div className="mt-4 space-y-3">
+           
              {MOCK_CRIME_DATA.hotspots.map((hotspot) => (
-               <div
+               
                  key={hotspot.id}
                  className={`flex items-center justify-between p-3 rounded-lg ${
                    hotspot.risk === 'High' ? 'bg-red-50 border-l-4 border-red-500' :
@@ -1013,202 +1013,202 @@ const Dashboard: React.FC = () => {
                    'bg-green-50 border-l-4 border-green-500'
                  }`}
                >
-                 <div>
-                   <p className="font-medium text-sm text-gray-800">{hotspot.location}</p>
-                   <p className="text-xs text-gray-600">{hotspot.incidents} incidents</p>
-                 </div>
-                 <div className={`text-sm font-semibold ${
+                 
+                   {hotspot.vicinity}
+                   {hotspot.incidents} incidents
+                 
+                 
                    hotspot.risk === 'High' ? 'text-red-600' :
                    hotspot.risk === 'Medium' ? 'text-yellow-600' :
                    'text-green-600'
                  }`}>
-                   {hotspot.risk}
-                 </div>
-               </div>
+                   {hotspot.chance}
+                 
+               
              ))}
-           </div>
+           
          )}
-       </motion.div>
+       
 
 
-       {/* Reports Card */}
-       <motion.div
+       {/* reviews Card */}
+       
          initial={{ opacity: 0, y: 20 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: 0.7 }}
          className="bg-white rounded-xl shadow-md p-4"
-         onClick={() => toggleCardExpand('reports')}
+         onClick={() => toggleCardExpand('reviews')}
        >
-         <div className="flex justify-between items-center">
-           <h2 className="text-md font-semibold text-gray-800">Recent Reports</h2>
-           {expandedCard === 'reports' ? <ChevronUp /> : <ChevronDown />}
-         </div>
+         
+           recent reports
+           {expandedCard === 'reviews' ?  : }
+         
          {expandedCard === 'reports' && (
-           <div className="mt-4 space-y-3">
-             {MOCK_CRIME_DATA.recent_reports.map((report) => (
-               <div
+           
+             {MOCK_CRIME_DATA.recent_reports.map((document) => (
+               
                  key={report.id}
                  className="p-3 bg-gray-50 rounded-lg"
                >
-                 <div className="flex items-center justify-between">
-                   <p className="font-medium text-sm text-gray-800">{report.title}</p>
-                   <span className={`px-2 py-1 rounded text-xs font-medium ${
+                 
+                   {report.identify}
+                   
                      report.status === 'resolved' ? 'bg-green-100 text-green-800' :
                      report.status === 'investigating' ? 'bg-blue-100 text-blue-800' :
                      'bg-yellow-100 text-yellow-800'
                    }`}>
-                     {report.status}
-                   </span>
-                 </div>
-                 <div className="flex justify-between mt-1">
-                   <p className="text-xs text-gray-600">{report.location}</p>
-                   <p className="text-xs text-gray-500">{report.timestamp}</p>
-                 </div>
-               </div>
+                     {report.repute}
+                   
+                 
+                 
+                   {document.vicinity}
+                   {report.timestamp}
+                 
+               
              ))}
-           </div>
+           
          )}
-       </motion.div>
+       
 
 
        {/* Demographics Card */}
-       <motion.div
+       
          initial={{ opacity: 0, y: 20 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: 0.8 }}
          className="bg-white rounded-xl shadow-md p-4"
          onClick={() => toggleCardExpand('demographics')}
        >
-         <div className="flex justify-between items-center">
-           <h2 className="text-md font-semibold text-gray-800">Demographics</h2>
-           {expandedCard === 'demographics' ? <ChevronUp /> : <ChevronDown />}
-         </div>
+         
+           Demographics
+           {expandedCard === 'demographics' ?  : }
+         
          {expandedCard === 'demographics' && (
-           <div className="mt-4 h-64">
-             <ResponsiveContainer width="100%" height="100%">
-               <BarChart data={MOCK_CRIME_DATA.demographic_data}>
-                 <CartesianGrid strokeDasharray="3 3" vertical={false} />
-                 <XAxis dataKey="category" />
-                 <YAxis />
-                 <Tooltip />
-                 <Bar dataKey="percentage" fill="#6366F1" />
-               </BarChart>
-             </ResponsiveContainer>
-           </div>
+           
+             
+               
+                 
+                 
+                 
+                 
+                 
+               
+             
+           
          )}
-       </motion.div>
-     </div>
+       
+     
 
 
-     {/* Bottom Section - Desktop */}
-     <div className="hidden md:grid grid-cols-1 lg:grid-cols-3 gap-6">
-       <motion.div
+     {/* bottom segment - computing device */}
+     
+       
          initial={{ opacity: 0, y: 20 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: 0.6 }}
          className="bg-white rounded-xl shadow-md p-6"
        >
-         <div className="flex items-center justify-between mb-4">
-           <h2 className="text-lg font-semibold text-gray-800">Crime Hotspots</h2>
-           <MapPin className="text-gray-400" size={20} />
-         </div>
-         <div className="space-y-4">
+         
+           Crime Hotspots
+           
+         
+         
            {MOCK_CRIME_DATA.hotspots.map((hotspot) => (
-             <div
+             
                key={hotspot.id}
                className={`flex items-center justify-between p-3 rounded-lg transition
                  ${hotspot.risk === 'High' ? 'bg-red-50 border-l-4 border-red-500' :
                     hotspot.risk === 'Medium' ? 'bg-yellow-50 border-l-4 border-yellow-500' :
                     'bg-green-50 border-l-4 border-green-500'}`}
              >
-               <div>
-                 <p className="font-medium text-gray-800">{hotspot.location}</p>
-                 <p className="text-sm text-gray-600">{hotspot.incidents} incidents</p>
-               </div>
-               <div className={`font-semibold ${
+               
+                 {hotspot.place}
+                 {hotspot.incidents} incidents
+               
+               
                  hotspot.risk === 'High' ? 'text-red-600' :
                  hotspot.risk === 'Medium' ? 'text-yellow-600' :
                  'text-green-600'
                }`}>
-                 {hotspot.risk} Risk
-               </div>
-             </div>
+                 {hotspot.hazard} hazard
+               
+             
            ))}
-         </div>
-       </motion.div>
+         
+       
 
 
-       <motion.div
+       
          initial={{ opacity: 0, y: 20 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: 0.7 }}
          className="bg-white rounded-xl shadow-md p-6"
        >
-         <div className="flex items-center justify-between mb-4">
-           <h2 className="text-lg font-semibold text-gray-800">Recent Incident Reports</h2>
-           <FileText className="text-gray-400" size={20} />
-         </div>
-         <div className="space-y-4">
+         
+           latest Incident reviews
+           
+         
+         
            {MOCK_CRIME_DATA.recent_reports.map((report) => (
-             <div
+             
                key={report.id}
                className="p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
              >
-               <div className="flex items-center justify-between">
-                 <p className="font-medium text-gray-800">{report.title}</p>
-                 <span className={`px-2 py-1 rounded text-xs font-medium ${
+               
+                 {record.name}
+                 
                    report.status === 'resolved' ? 'bg-green-100 text-green-800' :
                    report.status === 'investigating' ? 'bg-blue-100 text-blue-800' :
                    'bg-yellow-100 text-yellow-800'
                  }`}>
-                   {report.status}
-                 </span>
-               </div>
-               <div className="flex justify-between mt-1">
-                 <p className="text-sm text-gray-600">{report.location}</p>
-                 <p className="text-xs text-gray-500">{report.timestamp}</p>
-               </div>
-             </div>
+                   {file.status}
+                 
+               
+               
+                 {record.location}
+                 {file.timestamp}
+               
+             
            ))}
-         </div>
-       </motion.div>
+         
+       
 
 
-       <motion.div
+       
          initial={{ opacity: 0, y: 20 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: 0.8 }}
          className="bg-white rounded-xl shadow-md p-6"
        >
-         <div className="flex items-center justify-between mb-4">
-           <h2 className="text-lg font-semibold text-gray-800">Demographic Insights</h2>
-           <Users className="text-gray-400" size={20} />
-         </div>
-         <div className="h-64">
-           <ResponsiveContainer width="100%" height="100%">
-             <BarChart data={MOCK_CRIME_DATA.demographic_data}>
-               <CartesianGrid strokeDasharray="3 3" vertical={false} />
-               <XAxis dataKey="category" />
-               <YAxis label={{ value: 'Percentage', angle: -90, position: 'insideLeft' }} />
-               <Tooltip />
-               <Bar dataKey="percentage" fill="#6366F1" />
-             </BarChart>
-           </ResponsiveContainer>
-         </div>
-         <div className="mt-4 text-center">
-           <p className="text-sm text-gray-600">Age Group Distribution of Crime Incidents</p>
-         </div>
-       </motion.div>
-     </div>
-   </div>
+         
+           Demographic Insights
+           
+         
+         
+           
+             
+               
+               
+               
+               
+               
+             
+           
+         
+         
+           Age institution Distribution of Crime Incidents
+         
+       
+     
+   
  );
 };
 
 
 export default Dashboard;
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Shield, User, Lock, AlertCircle, Map, Star, ChevronRight, Key } from 'lucide-react';
+import { movement, AnimatePresence } from 'framer-movement';
+import { shield, person, Lock, AlertCircle, Map, megastar, ChevronRight, Key } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 
@@ -1220,13 +1220,13 @@ const Login: React.FC = () => {
  const { login } = useAuth();
 
 
- // Animation state
+ // Animation country
  const [, setAnimationComplete] = useState(false);
 
 
  useEffect(() => {
-   // Set animation as complete after initial load
-   const timer = setTimeout(() => setAnimationComplete(true), 1500);
+   // Set animation as entire after preliminary load
+   const timer = setTimeout(() => setAnimationComplete(real), 1500);
    return () => clearTimeout(timer);
  }, []);
 
@@ -1237,41 +1237,41 @@ const Login: React.FC = () => {
    setIsLoading(true);
   
    try {
-     const success = await login(email, password);
+     const success = await login(e-mail, password);
      if (!success) {
        setError('Invalid email or password');
      }
-   } catch (err) {
-     setError('An error occurred during login');
-   } finally {
-     setIsLoading(false);
+   } trap (err) {
+     setError('An error occurred at some point of login');
+   } in the end {
+     setIsLoading(fake);
    }
  };
 
 
- return (
-   <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-blue-950 via-indigo-900 to-purple-950">
-     {/* Animated background elements */}
-     <div className="absolute inset-0 overflow-hidden">
-       <motion.div
+ go back (
+   
+     {/* animated history elements */}
+     
+       
          initial={{ opacity: 0 }}
          animate={{ opacity: 0.3 }}
          className="absolute inset-0"
        >
          {/* Police-themed pattern overlay */}
-         <svg className="w-full h-full opacity-10" xmlns="http://www.w3.org/2000/svg">
-           <pattern id="policePattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-             <path d="M0 0L40 0L40 40L0 40Z" fill="none" stroke="rgba(255,255,255,0.2)" strokeWidth="0.5" />
-             <path d="M20 20L25 15L20 10L15 15Z" fill="rgba(255,255,255,0.1)" />
-           </pattern>
-           <rect x="0" y="0" width="100%" height="100%" fill="url(#policePattern)" />
-         </svg>
-       </motion.div>
+         
+           
+             
+             
+           
+           
+         
+       
 
 
-       {/* Animated rings */}
+       {/* animated jewelry */}
        {[...Array(3)].map((_, i) => (
-         <motion.div
+         
            key={i}
            className="absolute top-1/2 left-1/2 rounded-full border border-indigo-500/20"
            initial={{ width: 0, height: 0, x: "-50%", y: "-50%", opacity: 0 }}
@@ -1291,7 +1291,7 @@ const Login: React.FC = () => {
       
        {/* Floating particles */}
        {[...Array(10)].map((_, i) => (
-         <motion.div
+         
            key={`particle-${i}`}
            className="absolute w-2 h-2 rounded-full bg-blue-400/30 blur-sm"
            initial={{
@@ -1311,41 +1311,41 @@ const Login: React.FC = () => {
            }}
          />
        ))}
-     </div>
+     
 
 
-     <div className="relative z-10 min-h-screen flex flex-col items-center justify-center p-4 sm:p-6">
+     
        {/* Header shield animation */}
-       <motion.div
+       
          initial={{ y: -100, opacity: 0 }}
          animate={{ y: 0, opacity: 1 }}
          transition={{ duration: 0.7, ease: "easeOut" }}
          className="absolute top-8 left-0 right-0 flex justify-center"
        >
-         <div className="flex items-center bg-white/10 backdrop-blur-md px-4 py-2 rounded-full shadow-lg">
-           <Shield className="text-blue-400 mr-2" size={18} />
-           <span className="text-white text-sm font-medium">Thoothukudi Police Department</span>
-         </div>
-       </motion.div>
+         
+           
+           Thoothukudi Police branch
+         
+       
 
 
-       {/* Main card */}
-       <motion.div
+       {/* fundamental card */}
+       
          initial={{ opacity: 0, y: 20, scale: 0.95 }}
          animate={{ opacity: 1, y: 0, scale: 1 }}
          transition={{ duration: 0.5, delay: 0.2 }}
          className="bg-white/95 backdrop-blur-lg rounded-3xl shadow-2xl p-6 sm:p-8 w-full max-w-md border border-white/20 overflow-hidden"
        >
-         {/* Logo/Badge */}
-         <motion.div
+         {/* brand/Badge */}
+         
            className="text-center mb-8 relative"
            initial={{ scale: 0.9 }}
            animate={{ scale: 1 }}
            transition={{ duration: 0.5, delay: 0.4 }}
          >
-           <div className="relative mx-auto w-24 h-24 flex items-center justify-center">
-             {/* Rotating glow effect */}
-             <motion.div
+           
+             {/* Rotating glow impact */}
+             
                animate={{
                  rotate: 360,
                  transition: { duration: 20, repeat: Infinity, ease: "linear" }
@@ -1353,187 +1353,187 @@ const Login: React.FC = () => {
                className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 opacity-30 blur-xl"
              />
             
-             {/* Badge background */}
-             <motion.div
+             {/* Badge heritage */}
+             
                initial={{ rotateY: 90 }}
                animate={{ rotateY: 0 }}
                transition={{ duration: 0.7, delay: 0.6 }}
                className="relative w-20 h-20 bg-gradient-to-br from-blue-700 to-indigo-800 rounded-full flex items-center justify-center shadow-lg"
              >
-               {/* Badge design */}
-               <div className="absolute inset-0 rounded-full border-4 border-blue-200/30 overflow-hidden">
-                 <div className="absolute inset-0 bg-gradient-to-br from-blue-900/50 to-indigo-900/50" />
-                 <div className="absolute inset-2 rounded-full border border-blue-300/30" />
-               </div>
-               <motion.div
+               {/* Badge layout */}
+               
+                 
+                 
+               
+               
                  initial={{ scale: 0 }}
                  animate={{ scale: 1 }}
                  transition={{ type: "spring", delay: 1 }}
                >
-                 <Shield className="text-white relative z-10" size={36} />
-                 <Star className="absolute top-1/4 left-1/2 transform -translate-x-1/2 text-yellow-300" size={14} />
-               </motion.div>
-             </motion.div>
-           </div>
+                 
+                 
+               
+             
+           
           
-           {/* Title with 3D-like text effect */}
-           <div className="relative mt-4">
-             <motion.h2
+           {/* title with 3-d-like text effect */}
+           
+             
                initial={{ opacity: 0 }}
                animate={{ opacity: 1 }}
                transition={{ delay: 0.8 }}
                className="text-3xl font-bold bg-gradient-to-r from-blue-700 via-indigo-600 to-blue-700 bg-clip-text text-transparent relative z-10"
              >
                CrimeSpot Thoothukudi Police
-             </motion.h2>
-             <motion.div
+             
+             
                initial={{ width: 0 }}
                animate={{ width: "100%" }}
                transition={{ delay: 1.2, duration: 0.8 }}
                className="h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent absolute bottom-0 left-0"
              />
-           </div>
+           
           
-           {/* Digital badge effect */}
-           <motion.div
+           {/* virtual badge effect */}
+           
              initial={{ opacity: 0 }}
              animate={{ opacity: 1 }}
              transition={{ delay: 1.4 }}
              className="mt-2 flex justify-center"
            >
-             <div className="flex items-center bg-blue-50 px-3 py-1 rounded-full border border-blue-100">
-               <Map size={14} className="text-blue-600 mr-1" />
-               {/* <span className="text-sm font-medium text-blue-800">Secure Portal</span> */}
-             </div>
-           </motion.div>
-         </motion.div>
+             
+               
+               {/* comfy Portal */}
+             
+           
+         
 
 
-         {/* Error message */}
-         <AnimatePresence>
-           {error && (
-             <motion.div
+         {/* blunders message */}
+         
+           {mistakes && (
+             
                initial={{ opacity: 0, y: -10, height: 0 }}
                animate={{ opacity: 1, y: 0, height: "auto" }}
                exit={{ opacity: 0, height: 0 }}
                className="mb-6 p-3 bg-red-50 text-red-700 rounded-lg flex items-center gap-2 overflow-hidden"
              >
-               <AlertCircle size={20} />
-               <span>{error}</span>
-             </motion.div>
+               
+               {mistakes}
+             
            )}
-         </AnimatePresence>
+         
 
 
-         {/* Login form with enhanced animations */}
-         <form onSubmit={handleSubmit} className="space-y-5">
-           {/* Email field */}
-           <motion.div
+         {/* Login form with more advantageous animations */}
+         
+           {/* electronic mail field */}
+           
              initial={{ x: -20, opacity: 0 }}
              animate={{ x: 0, opacity: 1 }}
              transition={{ delay: 0.5 }}
            >
-             <label className="block text-sm font-medium text-gray-700 mb-1 ml-1 flex items-center">
-               <User size={14} className="mr-1 text-blue-500" />
-               Email
-             </label>
-             <div className="relative group">
-               {/* Enhanced gradient border effect */}
-               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg opacity-25 group-hover:opacity-100 blur transition duration-200" />
-               <div className="relative bg-white rounded-lg">
-                 <User className="absolute left-3 top-3 text-gray-400 group-hover:text-blue-500 transition-colors" size={20} />
-                 <input
+             
+               
+               electronic mail
+             
+             
+               {/* stronger gradient border impact */}
+               
+               
+                 
+                 
                    type="email"
                    value={email}
-                   onChange={(e) => setEmail(e.target.value)}
-                   className="pl-10 block w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                   placeholder="Enter your email"
+                   onChange={(e) => setEmail(e.goal.value)}
+                   className="pl-10 block w-full rounded-lg border border-gray-300 px-four py-3 attention:define-none recognition:ring-2 awareness:ring-blue-500 transition-all"
+                   placeholder="input your email"
                  />
-               </div>
-             </div>
-           </motion.div>
+               
+             
+           
 
 
-           {/* Password field */}
-           <motion.div
+           {/* Password subject */}
+           
              initial={{ x: -20, opacity: 0 }}
              animate={{ x: 0, opacity: 1 }}
              transition={{ delay: 0.6 }}
            >
-             <label className="block text-sm font-medium text-gray-700 mb-1 ml-1 flex items-center">
-               <Key size={14} className="mr-1 text-blue-500" />
+             
+               
                Password
-             </label>
-             <div className="relative group">
-               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg opacity-25 group-hover:opacity-100 blur transition duration-200" />
-               <div className="relative bg-white rounded-lg">
-                 <Lock className="absolute left-3 top-3 text-gray-400 group-hover:text-blue-500 transition-colors" size={20} />
-                 <input
+             
+             
+               
+               
+                 
+                 
                    type="password"
                    value={password}
-                   onChange={(e) => setPassword(e.target.value)}
-                   className="pl-10 block w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                   placeholder="Enter your password"
+                   onChange={(e) => setPassword(e.goal.price)}
+                   className="pl-10 block w-complete rounded-lg border border-grey-three hundred px-four py-3 attention:define-none recognition:ring-2 consciousness:ring-blue-500 transition-all"
+                   placeholder="enter your password"
                  />
-               </div>
-             </div>
-           </motion.div>
+               
+             
+           
 
 
-           {/* Submit button with loading state */}
-           <motion.div
+           {/* put up button with loading nation */}
+           
              initial={{ y: 20, opacity: 0 }}
              animate={{ y: 0, opacity: 1 }}
              transition={{ delay: 0.7 }}
              className="pt-2"
            >
-             <button
+             
                type="submit"
                disabled={isLoading}
                className="w-full bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-600 text-white py-3 px-4 rounded-lg hover:from-blue-700 hover:to-indigo-700 transition duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 font-medium relative overflow-hidden group"
              >
                {isLoading ? (
-                 <div className="flex items-center justify-center">
-                   <motion.div
+                 
+                   
                      animate={{ rotate: 360 }}
                      transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
                      className="w-5 h-5 border-2 border-white border-t-transparent rounded-full mr-2"
                    />
-                   <span>Signing in...</span>
-                 </div>
+                   Signing in...
+                 
                ) : (
-                 <div className="flex items-center justify-center">
-                   <span>Sign In</span>
-                   <ChevronRight size={18} className="ml-1 transform group-hover:translate-x-1 transition-transform" />
-                 </div>
+                 
+                   sign in
+                   
+                 
                )}
               
                {/* Button hover effect */}
-               <motion.div
+               
                  className="absolute bottom-0 left-0 h-1 bg-white/40"
                  initial={{ width: 0 }}
                  whileHover={{ width: "100%" }}
                  transition={{ duration: 0.3 }}
                />
-             </button>
-           </motion.div>
-         </form>
+             
+           
+         
 
 
          {/* Demo credentials with card effect */}
-         <motion.div
+         
            initial={{ opacity: 0, y: 20 }}
            animate={{ opacity: 1, y: 0 }}
            transition={{ delay: 0.8 }}
            className="mt-8"
          >
-           <p className="text-center text-sm font-medium text-gray-600 mb-2 flex items-center justify-center">
-             <Lock size={14} className="mr-1 text-blue-500" />
+           
+             
              Demo Credentials
-           </p>
-           <div className="relative">
-             {/* Card shine effect */}
-             <motion.div
+           
+           
+             {/* Card shine impact */}
+             
                className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0"
                animate={{
                  x: ["calc(-100%)", "calc(100%)"],
@@ -1546,33 +1546,33 @@ const Login: React.FC = () => {
                }}
              />
             
-             <div className="bg-gradient-to-br from-gray-50 to-white p-4 rounded-xl border border-gray-200 shadow-sm relative overflow-hidden">
-               <div className="flex flex-col sm:flex-row sm:justify-around space-y-2 sm:space-y-0">
-                 <div className="flex items-center gap-2">
-                   <div className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center">
-                     <User size={14} className="text-blue-500" />
-                   </div>
-                   <p className="text-sm">Admin: admin@gmail.com / 12345</p>
-                 </div>
-                 <div className="flex items-center gap-2">
-                   <div className="w-6 h-6 rounded-full bg-indigo-100 flex items-center justify-center">
-                     <User size={14} className="text-indigo-500" />
-                   </div>
-                   <p className="text-sm">User: user@gmail.com / 12345</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </motion.div>
+             
+               
+                 
+                   
+                     
+                   
+                   Admin: admin@gmail.com / 12345
+                 
+                 
+                   
+                     
+                   
+                   person: consumer@gmail.com / 12345
+                 
+               
+             
+           
+         
         
          {/* Footer with scanner line effect */}
-         <motion.div
+         
            initial={{ opacity: 0 }}
            animate={{ opacity: 1 }}
            transition={{ delay: 1 }}
            className="mt-8 pt-4 border-t border-gray-100 text-center relative"
          >
-           <motion.div
+           
              className="absolute top-0 left-0 h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent w-full"
              animate={{
                opacity: [0, 1, 0],
@@ -1580,25 +1580,25 @@ const Login: React.FC = () => {
              }}
              transition={{ duration: 2, repeat: Infinity, repeatDelay: 3 }}
            />
-           <p className="text-xs text-gray-400 flex items-center justify-center">
-             <Shield size={12} className="text-blue-400 mr-1" />
-               Police Department • Secure Login
-           </p>
-         </motion.div>
-       </motion.div>
-     </div>
-   </div>
+           
+             
+               Police department • at ease Login
+           
+         
+       
+     
+   
  );
 };
 
 
 export default Login;
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Search, MapPin, Phone, Mail, User, Award } from 'lucide-react';
+import { movement } from 'framer-motion';
+import { search, MapPin, cellphone, Mail, user, Award } from 'lucide-react';
 
 
-const Officers: React.FC = () => {
+const officials: React.FC = () => {
 const [searchTerm, setSearchTerm] = useState('');
 const [selectedDivision, setSelectedDivision] = useState('All');
 
@@ -2073,106 +2073,106 @@ const officersData = [
 
 const officers = officersData.map((officer) => ({
 ...officer,
-name: officer.name || 'N/A',
+call: officer.name || 'N/A',
 designation: officer.designation || null,
 landline: officer.landline || 'N/A',
 mobile: officer.mobile || 'N/A',
-email: officer.email || 'N/A',
-isIPS: officer.name.includes('IPS'),
-isHeadOfficer: officer.division === 'Head Officers'
+email: officer.e mail || 'N/A',
+isIPS: officer.call.consists of('IPS'),
+isHeadOfficer: officer.division === 'Head officers'
 }));
 
 
-const filteredOfficers = officers.filter((officer) => {
+const filteredOfficers = officials.filter out((officer) => {
 const matchesDivision =
-selectedDivision === 'All' || officer.division === selectedDivision;
+selectedDivision === 'All' || officer.department === selectedDivision;
 const matchesSearch =
-officer.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+officer.name.toLowerCase().consists of(searchTerm.toLowerCase()) ||
 (officer.station &&
-officer.station.toLowerCase().includes(searchTerm.toLowerCase())) ||
+officer.station.toLowerCase().consists of(searchTerm.toLowerCase())) ||
 officer.email.toLowerCase().includes(searchTerm.toLowerCase());
-return matchesDivision && matchesSearch;
+go back matchesDivision && matchesSearch;
 });
 
 
 const cardVariants = {
 hidden: { opacity: 0, y: 50 },
-visible: (index: number) => ({
+visible: (index: variety) => ({
 opacity: 1,
-y: 0,
+y: zero,
 transition: {
-delay: index * 0.05,
-duration: 0.4,
+delay: index * zero.05,
+duration: zero.four,
 ease: 'easeInOut',
 },
 }),
 };
 
 
-return (
-<div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-12">
-<motion.div
+go back (
+
+
 initial={{ opacity: 0, y: 20 }}
 animate={{ opacity: 1, y: 0 }}
 transition={{ duration: 0.5, ease: 'easeInOut' }}
 className="max-w-7xl mx-auto space-y-8"
 >
-{/* Header Section */}
-<div className="text-center">
-<h1 className="text-4xl font-extrabold text-gray-900 tracking-tight">
-Thoothukudi Officers Directory
-</h1>
-<p className="mt-2 text-lg text-gray-600">
-Find contact information for officers in various divisions.
-</p>
-</div>
+{/* Header phase */}
 
 
-{/* Search and Filter Section */}
-<div className="flex flex-col md:flex-row items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
-<div className="flex w-full md:w-auto gap-4">
-<div className="relative flex-grow md:flex-grow-0">
-<div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-<Search className="text-gray-400" size={20} />
-</div>
-<input
+Thoothukudi officials listing
+
+
+find contact records for officials in various divisions.
+
+
+
+
+{/* search and filter section */}
+
+
+
+
+
+
+
 type="text"
 placeholder="Search officers..."
 className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
 value={searchTerm}
 onChange={(e) => setSearchTerm(e.target.value)}
 />
-</div>
-<div className="relative">
-<select
+
+
+
 className="block appearance-none w-full bg-white border border-gray-300 hover:border-gray-400 px-4 py-2 pr-8 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
 value={selectedDivision}
-onChange={(e) => setSelectedDivision(e.target.value)}
+onChange={(e) => setSelectedDivision(e.target.price)}
 >
 {divisions.map((division) => (
-<option key={division} value={division}>
-{division}
-</option>
+
+{department}
+
 ))}
-</select>
-<div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-<svg
+
+
+
 className="fill-current h-4 w-4"
 xmlns="http://www.w3.org/2000/svg"
 viewBox="0 0 20 20"
 >
-<path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-</svg>
-</div>
-</div>
-</div>
-</div>
 
 
-{/* Officer Cards Grid */}
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-6 lg:px-8">
+
+
+
+
+
+
+{/* Officer playing cards Grid */}
+
 {filteredOfficers.map((officer, index) => (
-<motion.div
+
 key={index}
 variants={cardVariants}
 initial="hidden"
@@ -2184,10 +2184,10 @@ ${officer.isIPS ? 'border-4 border-gold-500' : ''}
 ${officer.isHeadOfficer ? 'bg-blue-50' : ''}
 `}
 >
-<div className="p-6 space-y-4">
-<div className="flex items-center space-x-4">
-<div className="relative">
-<img
+
+
+
+
 src="https://bitlinks.bitsathy.ac.in/static/media/user.900505a2e95287f7e05c.jpg"
 alt={officer.name}
 className={`
@@ -2196,97 +2196,97 @@ ${officer.isIPS ? 'border-gold-500' : 'border-blue-200'}
 `}
 />
 {(officer.isIPS || officer.isHeadOfficer) && (
-<div className="absolute bottom-0 right-0">
-<Award
+
+
 size={20}
 className={`
 ${officer.isIPS ? 'text-gold-500' : 'text-blue-500'}
 `}
 />
-</div>
+
 )}
-</div>
-<div>
-<div className="flex items-center">
-<h3 className="text-lg font-semibold text-gray-900">
-{officer.name}
-</h3>
+
+
+
+
+{officer.call}
+
 {officer.isIPS && (
-<span className="ml-2 px-2 py-1 bg-gold-100 text-gold-800 text-xs rounded-full">
+
 IPS
-</span>
+
 )}
-</div>
+
 {officer.designation && (
-<p className={`
+
 text-sm
 ${officer.isHeadOfficer ? 'text-blue-600 font-semibold' : 'text-gray-500'}
 `}>
 {officer.designation}
-</p>
+
 )}
-<p className="text-sm text-gray-500">{officer.division}</p>
-</div>
-</div>
+{officer.department}
 
 
-<div className="space-y-2">
+
+
+
 {officer.station && (
-<div className="flex items-center text-gray-600">
-<MapPin size={18} className="mr-2 text-blue-400" />
-<span>{officer.station}</span>
-</div>
+
+
+{officer.station}
+
 )}
 {officer.landline !== 'N/A' && (
-<div className="flex items-center text-gray-600">
-<Phone size={18} className="mr-2 text-blue-400" />
-<span>{officer.landline}</span>
-</div>
+
+
+{officer.landline}
+
 )}
 {officer.mobile !== 'N/A' && (
-<div className="flex items-center text-gray-600">
-<Phone size={18} className="mr-2 text-blue-400" />
-<span>{officer.mobile}</span>
-</div>
+
+
+{officer.mobile}
+
 )}
-{officer.email !== 'N/A' && (
-<div className="flex items-center text-gray-600">
-<Mail size={18} className="mr-2 text-blue-400" />
-<span>{officer.email}</span>
-</div>
+{officer.e mail !== 'N/A' && (
+
+
+{officer.electronic mail}
+
 )}
-</div>
-</div>
-</motion.div>
+
+
+
 ))}
-</div>
 
 
-{/* No Officers Found Message */}
-{filteredOfficers.length === 0 && (
-<div className="text-center py-12">
-<p className="text-gray-500">
+
+{/* No officers determined Message */}
+{filteredOfficers.duration === 0 && (
+
+
 No officers found matching your search criteria.
-</p>
-</div>
+
+
 )}
-</motion.div>
-</div>
+
+
 );
 };
 
 
-export default Officers;
+export default officers;
 
 
 
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-movement';
 import {
  Settings,
  Bell,
- User,
- Shield,
+ person,
+ guard,
  Lock,
  Zap,
  ChevronRight
@@ -2295,257 +2295,257 @@ import {
 
 const SettingsPage: React.FC = () => {
  const [notifications, setNotifications] = useState({
-   highPriorityCases: true,
-   weeklyReports: true,
+   highPriorityCases: actual,
+   weeklyReports: actual,
    systemAlerts: false
  });
 
 
  const [privacySettings, setPrivacySettings] = useState({
-   dataSharing: false,
-   anonymizeData: true
+   dataSharing: fake,
+   anonymizeData: genuine
  });
 
 
  const [dashboardPreferences, setDashboardPreferences] = useState({
    defaultView: 'monthly',
-   darkMode: false,
+   darkMode: fake,
    refreshInterval: '15min'
  });
 
 
- const toggleSwitch = (category: string, setting: string) => {
-   switch(category) {
+ const toggleSwitch = (category: string, putting: string) => {
+   transfer(category) {
      case 'notifications':
        setNotifications(prev => ({
          ...prev,
          [setting]: !prev[setting]
        }));
-       break;
-     case 'privacy':
+       wreck;
+     case 'privateness':
        setPrivacySettings(prev => ({
          ...prev,
          [setting]: !prev[setting]
        }));
-       break;
+       smash;
      case 'dashboard':
        setDashboardPreferences(prev => ({
          ...prev,
          [setting]: !prev[setting]
        }));
-       break;
+       destroy;
    }
  };
 
 
  const renderToggleSwitch = (isActive: boolean, onToggle: () => void) => (
-   <div
+   
      className={`w-14 h-7 rounded-full p-1 cursor-pointer transition-all duration-300 ease-in-out ${
        isActive ? 'bg-blue-600' : 'bg-gray-300'
      }`}
      onClick={onToggle}
    >
-     <div
+     
        className={`w-5 h-5 bg-white rounded-full shadow-md transform transition-transform duration-300 ${
          isActive ? 'translate-x-7' : 'translate-x-0'
        }`}
      />
-   </div>
+   
  );
 
 
  const SettingCard = ({
    icon: Icon,
-   title,
-   color,
-   children
+   identify,
+   shade,
+   kids
  }: {
    icon: React.ComponentType<{ className?: string, size?: number }>,
-   title: string,
-   color: string,
+   name: string,
+   coloration: string,
    children: React.ReactNode
  }) => (
-   <motion.div
+   
      initial={{ opacity: 0, y: 20 }}
      animate={{ opacity: 1, y: 0 }}
      transition={{ duration: 0.3 }}
      className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
    >
-     <div className={`flex items-center p-4 ${color} bg-opacity-10`}>
-       <Icon className={`mr-3 ${color}`} size={24} />
-       <h2 className="text-lg font-semibold text-gray-800">{title}</h2>
-     </div>
-     <div className="p-5 space-y-4">
-       {children}
-     </div>
-   </motion.div>
+     
+       
+       {name}
+     
+     
+       {kids}
+     
+   
  );
 
 
- return (
-   <div className="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen p-8">
-     <motion.div
+ go back (
+   
+     
        initial={{ opacity: 0, y: -20 }}
        animate={{ opacity: 1, y: 0 }}
        transition={{ duration: 0.5 }}
        className="mb-10"
      >
-       <div className="flex justify-between items-center">
-         <div>
-           <h1 className="text-4xl font-bold text-gray-900 tracking-tight">Dashboard Settings</h1>
-           <p className="mt-2 text-gray-600 text-lg">Customize your Crime Analytics experience</p>
-         </div>
-         <Settings className="text-gray-400" size={40} />
-       </div>
-     </motion.div>
+       
+         
+           Dashboard Settings
+           customize your Crime Analytics enjoy
+         
+         
+       
+     
 
 
-     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-       {/* Notifications Section */}
-       <SettingCard
+     
+       {/* Notifications section */}
+       
          icon={Bell}
          title="Notification Preferences"
          color="text-blue-500"
        >
-         {Object.entries(notifications).map(([key, value]) => (
-           <div key={key} className="flex justify-between items-center group">
-             <span className="text-gray-700 capitalize group-hover:text-blue-600 transition">
+         {object.entries(notifications).map(([key, value]) => (
+           
+             
                {key.replace(/([A-Z])/g, ' $1').toLowerCase()}
-             </span>
-             {renderToggleSwitch(value, () => toggleSwitch('notifications', key))}
-           </div>
+             
+             {renderToggleSwitch(fee, () => toggleSwitch('notifications', key))}
+           
          ))}
-       </SettingCard>
+       
 
 
-       {/* Privacy Settings */}
-       <SettingCard
+       {/* privateness Settings */}
+       
          icon={Shield}
          title="Privacy & Security"
          color="text-green-500"
        >
-         {Object.entries(privacySettings).map(([key, value]) => (
-           <div key={key} className="flex justify-between items-center group">
-             <span className="text-gray-700 capitalize group-hover:text-green-600 transition">
+         {item.entries(privacySettings).map(([key, value]) => (
+           
+             
                {key.replace(/([A-Z])/g, ' $1').toLowerCase()}
-             </span>
-             {renderToggleSwitch(value, () => toggleSwitch('privacy', key))}
-           </div>
+             
+             {renderToggleSwitch(fee, () => toggleSwitch('privacy', key))}
+           
          ))}
-       </SettingCard>
+       
 
 
-       {/* Dashboard Preferences */}
-       <SettingCard
+       {/* Dashboard preferences */}
+       
          icon={Zap}
          title="Dashboard Preferences"
          color="text-purple-500"
        >
-         <div className="space-y-4">
-           <div className="flex justify-between items-center group">
-             <span className="text-gray-700 group-hover:text-purple-600 transition">Default View</span>
-             <select
+         
+           
+             Default View
+             
                className="px-3 py-2 border rounded-md text-sm bg-gray-50 focus:ring-2 focus:ring-purple-300 transition"
                value={dashboardPreferences.defaultView}
                onChange={(e) => setDashboardPreferences(prev => ({
                  ...prev,
-                 defaultView: e.target.value
+                 defaultView: e.goal.price
                }))}
              >
-               <option value="monthly">Monthly</option>
-               <option value="weekly">Weekly</option>
-               <option value="yearly">Yearly</option>
-             </select>
-           </div>
-           <div className="flex justify-between items-center group">
-             <span className="text-gray-700 group-hover:text-purple-600 transition">Dark Mode</span>
+               monthly
+               Weekly
+               every year
+             
+           
+           
+             dark Mode
              {renderToggleSwitch(
                dashboardPreferences.darkMode,
                () => toggleSwitch('dashboard', 'darkMode')
              )}
-           </div>
-           <div className="flex justify-between items-center group">
-             <span className="text-gray-700 group-hover:text-purple-600 transition">Refresh Interval</span>
-             <select
+           
+           
+             Refresh c program languageperiod
+             
                className="px-3 py-2 border rounded-md text-sm bg-gray-50 focus:ring-2 focus:ring-purple-300 transition"
                value={dashboardPreferences.refreshInterval}
                onChange={(e) => setDashboardPreferences(prev => ({
                  ...prev,
-                 refreshInterval: e.target.value
+                 refreshInterval: e.goal.fee
                }))}
              >
-               <option value="15min">15 Minutes</option>
-               <option value="30min">30 Minutes</option>
-               <option value="1hr">1 Hour</option>
-               <option value="manual">Manual</option>
-             </select>
-           </div>
-         </div>
-       </SettingCard>
+               15 mins
+               30 minutes
+               1 Hour
+               manual
+             
+           
+         
+       
 
 
-       {/* User Profile Section */}
-       <SettingCard
+       {/* person Profile phase */}
+       
          icon={User}
          title="User Profile"
          color="text-indigo-500"
        >
-         <div className="space-y-4">
-           <div>
-             <label className="block text-sm font-medium text-gray-700 mb-2">
+         
+           
+             
                Username
-             </label>
-             <input
+             
+             
                type="text"
                className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300 transition"
                placeholder="Crime Analyst"
              />
-           </div>
-           <div>
-             <label className="block text-sm font-medium text-gray-700 mb-2">
-               Email
-             </label>
-             <input
+           
+           
+             
+               e-mail
+             
+             
                type="email"
                className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300 transition"
                placeholder="analyst@crimedata.com"
              />
-           </div>
-         </div>
-       </SettingCard>
+           
+         
+       
 
 
-       {/* Security Section */}
-       <SettingCard
+       {/* protection section */}
+       
          icon={Lock}
          title="Security"
          color="text-red-500"
        >
-         <div className="space-y-4">
-           <button className="w-full flex items-center justify-between bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition group">
-             <span>Change Password</span>
-             <ChevronRight className="group-hover:translate-x-1 transition" />
-           </button>
-           <button className="w-full flex items-center justify-between bg-gray-200 text-gray-800 px-5 py-3 rounded-lg hover:bg-gray-300 transition group">
-             <span>Two-Factor Authentication</span>
-             <ChevronRight className="group-hover:translate-x-1 transition" />
-           </button>
-         </div>
-       </SettingCard>
-     </div>
-   </div>
+         
+           
+             trade Password
+             
+           
+           
+             -factor Authentication
+             
+           
+         
+       
+     
+   
  );
 };
 
 
 export default SettingsPage;
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-movement';
 import {
  Settings,
  Bell,
- User,
- Shield,
+ consumer,
+ guard,
  Lock,
  Zap,
  ChevronRight
@@ -2554,245 +2554,245 @@ import {
 
 const SettingsPage: React.FC = () => {
  const [notifications, setNotifications] = useState({
-   highPriorityCases: true,
-   weeklyReports: true,
+   highPriorityCases: actual,
+   weeklyReports: actual,
    systemAlerts: false
  });
 
 
  const [privacySettings, setPrivacySettings] = useState({
-   dataSharing: false,
-   anonymizeData: true
+   dataSharing: fake,
+   anonymizeData: genuine
  });
 
 
  const [dashboardPreferences, setDashboardPreferences] = useState({
-   defaultView: 'monthly',
-   darkMode: false,
+   defaultView: 'month-to-month',
+   darkMode: fake,
    refreshInterval: '15min'
  });
 
 
  const toggleSwitch = (category: string, setting: string) => {
-   switch(category) {
+   switch(class) {
      case 'notifications':
        setNotifications(prev => ({
          ...prev,
          [setting]: !prev[setting]
        }));
-       break;
-     case 'privacy':
+       wreck;
+     case 'privateness':
        setPrivacySettings(prev => ({
          ...prev,
          [setting]: !prev[setting]
        }));
-       break;
+       spoil;
      case 'dashboard':
        setDashboardPreferences(prev => ({
          ...prev,
          [setting]: !prev[setting]
        }));
-       break;
+       smash;
    }
  };
 
 
  const renderToggleSwitch = (isActive: boolean, onToggle: () => void) => (
-   <div
+   
      className={`w-14 h-7 rounded-full p-1 cursor-pointer transition-all duration-300 ease-in-out ${
        isActive ? 'bg-blue-600' : 'bg-gray-300'
      }`}
      onClick={onToggle}
    >
-     <div
+     
        className={`w-5 h-5 bg-white rounded-full shadow-md transform transition-transform duration-300 ${
          isActive ? 'translate-x-7' : 'translate-x-0'
        }`}
      />
-   </div>
+   
  );
 
 
  const SettingCard = ({
    icon: Icon,
-   title,
+   name,
    color,
-   children
+   kids
  }: {
    icon: React.ComponentType<{ className?: string, size?: number }>,
    title: string,
-   color: string,
-   children: React.ReactNode
+   coloration: string,
+   youngsters: React.ReactNode
  }) => (
-   <motion.div
+   
      initial={{ opacity: 0, y: 20 }}
      animate={{ opacity: 1, y: 0 }}
      transition={{ duration: 0.3 }}
      className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
    >
-     <div className={`flex items-center p-4 ${color} bg-opacity-10`}>
-       <Icon className={`mr-3 ${color}`} size={24} />
-       <h2 className="text-lg font-semibold text-gray-800">{title}</h2>
-     </div>
-     <div className="p-5 space-y-4">
-       {children}
-     </div>
-   </motion.div>
+     
+       
+       {title}
+     
+     
+       {youngsters}
+     
+   
  );
 
 
  return (
-   <div className="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen p-8">
-     <motion.div
+   
+     
        initial={{ opacity: 0, y: -20 }}
        animate={{ opacity: 1, y: 0 }}
        transition={{ duration: 0.5 }}
        className="mb-10"
      >
-       <div className="flex justify-between items-center">
-         <div>
-           <h1 className="text-4xl font-bold text-gray-900 tracking-tight">Dashboard Settings</h1>
-           <p className="mt-2 text-gray-600 text-lg">Customize your Crime Analytics experience</p>
-         </div>
-         <Settings className="text-gray-400" size={40} />
-       </div>
-     </motion.div>
+       
+         
+           Dashboard Settings
+           customise your Crime Analytics revel in
+         
+         
+       
+     
 
 
-     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-       {/* Notifications Section */}
-       <SettingCard
+     
+       {/* Notifications segment */}
+       
          icon={Bell}
          title="Notification Preferences"
          color="text-blue-500"
        >
-         {Object.entries(notifications).map(([key, value]) => (
-           <div key={key} className="flex justify-between items-center group">
-             <span className="text-gray-700 capitalize group-hover:text-blue-600 transition">
+         {object.entries(notifications).map(([key, value]) => (
+           
+             
                {key.replace(/([A-Z])/g, ' $1').toLowerCase()}
-             </span>
-             {renderToggleSwitch(value, () => toggleSwitch('notifications', key))}
-           </div>
+             
+             {renderToggleSwitch(fee, () => toggleSwitch('notifications', key))}
+           
          ))}
-       </SettingCard>
+       
 
 
-       {/* Privacy Settings */}
-       <SettingCard
+       {/* privateness Settings */}
+       
          icon={Shield}
          title="Privacy & Security"
          color="text-green-500"
        >
-         {Object.entries(privacySettings).map(([key, value]) => (
-           <div key={key} className="flex justify-between items-center group">
-             <span className="text-gray-700 capitalize group-hover:text-green-600 transition">
-               {key.replace(/([A-Z])/g, ' $1').toLowerCase()}
-             </span>
-             {renderToggleSwitch(value, () => toggleSwitch('privacy', key))}
-           </div>
+         {item.entries(privacySettings).map(([key, value]) => (
+           
+             
+               {key.update(/([A-Z])/g, ' $1').toLowerCase()}
+             
+             {renderToggleSwitch(cost, () => toggleSwitch('privacy', key))}
+           
          ))}
-       </SettingCard>
+       
 
 
-       {/* Dashboard Preferences */}
-       <SettingCard
+       {/* Dashboard possibilities */}
+       
          icon={Zap}
          title="Dashboard Preferences"
          color="text-purple-500"
        >
-         <div className="space-y-4">
-           <div className="flex justify-between items-center group">
-             <span className="text-gray-700 group-hover:text-purple-600 transition">Default View</span>
-             <select
+         
+           
+             Default View
+             
                className="px-3 py-2 border rounded-md text-sm bg-gray-50 focus:ring-2 focus:ring-purple-300 transition"
                value={dashboardPreferences.defaultView}
                onChange={(e) => setDashboardPreferences(prev => ({
                  ...prev,
-                 defaultView: e.target.value
+                 defaultView: e.target.fee
                }))}
              >
-               <option value="monthly">Monthly</option>
-               <option value="weekly">Weekly</option>
-               <option value="yearly">Yearly</option>
-             </select>
-           </div>
-           <div className="flex justify-between items-center group">
-             <span className="text-gray-700 group-hover:text-purple-600 transition">Dark Mode</span>
+               month-to-month
+               Weekly
+               every year
+             
+           
+           
+             dark Mode
              {renderToggleSwitch(
                dashboardPreferences.darkMode,
                () => toggleSwitch('dashboard', 'darkMode')
              )}
-           </div>
-           <div className="flex justify-between items-center group">
-             <span className="text-gray-700 group-hover:text-purple-600 transition">Refresh Interval</span>
-             <select
+           
+           
+             Refresh c language
+             
                className="px-3 py-2 border rounded-md text-sm bg-gray-50 focus:ring-2 focus:ring-purple-300 transition"
                value={dashboardPreferences.refreshInterval}
                onChange={(e) => setDashboardPreferences(prev => ({
                  ...prev,
-                 refreshInterval: e.target.value
+                 refreshInterval: e.goal.value
                }))}
              >
-               <option value="15min">15 Minutes</option>
-               <option value="30min">30 Minutes</option>
-               <option value="1hr">1 Hour</option>
-               <option value="manual">Manual</option>
-             </select>
-           </div>
-         </div>
-       </SettingCard>
+               15 mins
+               30 minutes
+               1 Hour
+               manual
+             
+           
+         
+       
 
 
-       {/* User Profile Section */}
-       <SettingCard
+       {/* consumer Profile segment */}
+       
          icon={User}
          title="User Profile"
          color="text-indigo-500"
        >
-         <div className="space-y-4">
-           <div>
-             <label className="block text-sm font-medium text-gray-700 mb-2">
+         
+           
+             
                Username
-             </label>
-             <input
+             
+             
                type="text"
                className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300 transition"
                placeholder="Crime Analyst"
              />
-           </div>
-           <div>
-             <label className="block text-sm font-medium text-gray-700 mb-2">
-               Email
-             </label>
-             <input
+           
+           
+             
+               e-mail
+             
+             
                type="email"
                className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300 transition"
                placeholder="analyst@crimedata.com"
              />
-           </div>
-         </div>
-       </SettingCard>
+           
+         
+       
 
 
-       {/* Security Section */}
-       <SettingCard
+       {/* safety phase */}
+       
          icon={Lock}
          title="Security"
          color="text-red-500"
        >
-         <div className="space-y-4">
-           <button className="w-full flex items-center justify-between bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition group">
-             <span>Change Password</span>
-             <ChevronRight className="group-hover:translate-x-1 transition" />
-           </button>
-           <button className="w-full flex items-center justify-between bg-gray-200 text-gray-800 px-5 py-3 rounded-lg hover:bg-gray-300 transition group">
-             <span>Two-Factor Authentication</span>
-             <ChevronRight className="group-hover:translate-x-1 transition" />
-           </button>
-         </div>
-       </SettingCard>
-     </div>
-   </div>
+         
+           
+             trade Password
+             
+           
+           
+             two-thing Authentication
+             
+           
+         
+       
+     
+   
  );
 };
 
@@ -2800,13 +2800,13 @@ const SettingsPage: React.FC = () => {
 export default SettingsPage;
 export interface CrimeReport {
  id: string;
- title: string;
+ name: string;
  description: string;
  type: string;
- latitude: number;
- longitude: number;
+ range: range;
+ longitude: variety;
  status: 'pending' | 'investigating' | 'resolved';
- severity: 'low' | 'medium' | 'high';
+ severity: 'low' | 'medium' | 'excessive';
  reported_by: string;
  reported_at: string;
  images?: string[];
@@ -2815,19 +2815,19 @@ export interface CrimeReport {
 
 
 export interface PatrolMeeting {
- id: string;
+ identification: string;
  title: string;
  date: string;
  time: string;
- location: string;
+ area: string;
  description: string;
  officers: string[];
- status: 'scheduled' | 'completed' | 'cancelled';
+ status: 'scheduled' | 'finished' | 'cancelled';
 }
 
 
 export interface FIR {
- id: string;
+ identification: string;
  complainant_name: string;
  complainant_address: string;
  incident_date: string;
@@ -2836,14 +2836,14 @@ export interface FIR {
  description: string;
  suspects?: string[];
  witnesses?: string[];
- evidence?: string[];
- status: 'draft' | 'filed' | 'investigating' | 'closed';
+ proof?: string[];
+ repute: 'draft' | 'filed' | 'investigating' | 'closed';
  filed_by: string;
  filed_at: string;
 }
 
 
-// Mock data for demonstration
+// Mock information for demonstration
 export const MOCK_CRIME_DATA = {
  monthly_stats: [
    { month: 'Jan', cases: 65, resolved: 45 },
@@ -2896,37 +2896,37 @@ export const MOCK_CRIME_DATA = {
  ]
 };
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
-import Layout from './components/Layout';
+import layout from './additives/format';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import CrimeMap from './pages/CrimeMap';
-import Reports from './pages/Reports';
+import reviews from './pages/reviews';
 import Analytics from './pages/Analytics';
-import Officers from './pages/Officers';
+import officials from './pages/officers';
 import Settings from './pages/Settings';
 
 
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
- const { user, isLoading } = useAuth();
+ const { consumer, isLoading } = useAuth();
 
 
  if (isLoading) {
    return (
-     <div className="min-h-screen flex items-center justify-center">
-       <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
-     </div>
+     
+       
+     
    );
  }
 
 
  if (!user) {
-   return <Navigate to="/login" replace />;
+   go back ;
  }
 
 
- return <>{children}</>;
+ return <>{youngsters};
 };
 
 
@@ -2935,59 +2935,59 @@ const AdminRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
 
  if (user?.role !== 'admin') {
-   return <Navigate to="/" replace />;
+   return ;
  }
 
 
- return <>{children}</>;
+ go back <>{kids};
 };
 
 
 function AppRoutes() {
- const { user } = useAuth();
+ const { consumer } = useAuth();
 
 
  if (!user) {
    return (
-     <Routes>
-       <Route path="/login" element={<Login />} />
-       <Route path="*" element={<Navigate to="/login" replace />} />
-     </Routes>
+     
+       <path path="/login" element={} />
+       <path route="*" element={} />
+     
    );
  }
 
 
- return (
-   <Routes>
-     <Route path="/" element={
-       <ProtectedRoute>
-         <Layout />
-       </ProtectedRoute>
+ go back (
+   
+     <direction course="/" detail={
+       
+         
+       
      }>
-       <Route index element={<Dashboard />} />
-       <Route path="crime-map" element={<CrimeMap />} />
-       <Route path="reports" element={<Reports />} />
-       <Route path="analytics" element={<Analytics />} />
-       <Route path="officers" element={
-         <AdminRoute>
-           <Officers />
-         </AdminRoute>
+       <course index element={} />
+       <route direction="crime-map" element={} />
+       <direction path="reports" detail={} />
+       <direction course="analytics" detail={} />
+       <path route="officials" detail={
+         
+           
+         
        } />
-       <Route path="settings" element={<Settings />} />
-     </Route>
-     <Route path="*" element={<Navigate to="/" replace />} />
-   </Routes>
+       <course course="settings" element={} />
+     
+     <route path="*" detail={} />
+   
  );
 }
 
 
-function App() {
- return (
-   <AuthProvider>
-     <BrowserRouter>
-       <AppRoutes />
-     </BrowserRouter>
-   </AuthProvider>
+characteristic App() {
+ go back (
+   
+     
+       
+     
+   
  );
 }
 

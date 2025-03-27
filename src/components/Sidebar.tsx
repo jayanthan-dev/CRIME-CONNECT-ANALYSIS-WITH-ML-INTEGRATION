@@ -17,7 +17,7 @@ const Sidebar: React.FC = () => {
   const { user, logout } = useAuth();
   
 
-  
+
   const menuItems = [
     { icon: Home, label: 'Dashboard', path: '/' },
     { icon: Map, label: 'Crime Map', path: '/crime-map' },
@@ -36,7 +36,7 @@ const Sidebar: React.FC = () => {
     >
       <div className="p-6 flex items-center gap-3">
         <Shield size={32} />
-        <span className="text-xl font-bold">CrimeSpot</span>
+        <span className="text-xl font-bold">CrimeSpot </span>
       </div>
       
       <nav className="flex-1 px-4 py-6">

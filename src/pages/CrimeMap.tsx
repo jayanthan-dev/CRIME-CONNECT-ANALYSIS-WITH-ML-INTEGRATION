@@ -68,8 +68,8 @@ const CrimeMap: React.FC = () => {
     >
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold text-gray-800">  Crime Map</h1>
-          <p className="mt-2 text-gray-600">Interactive map of crime hotspots     </p>
+          <h1 className="text-3xl font-bold text-gray-800">  Thoothukudi Crime Map</h1>
+          <p className="mt-2 text-gray-600">Interactive map of crime hotspots in Thoothukudi district     </p>
         </div>
         <button
           onClick={() => setShowPatrolModal(true)}

@@ -168,7 +168,7 @@ const Login: React.FC = () => {
                 transition={{ delay: 0.8 }}
                 className="text-3xl font-bold bg-gradient-to-r from-blue-700 via-indigo-600 to-blue-700 bg-clip-text text-transparent relative z-10"
               >
-                CrimeSpot
+                CrimeSpot Thoothukudi Police
               </motion.h2>
               <motion.div 
                 initial={{ width: 0 }}

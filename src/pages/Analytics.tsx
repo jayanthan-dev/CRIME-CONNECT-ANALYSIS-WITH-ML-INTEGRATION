@@ -22,6 +22,7 @@ const generateIncidentData = (days: number) => {
     date.setDate(date.getDate() - i);
     
     data.push({
+      
       date: date.toISOString().split('T')[0],
       violent: Math.floor(Math.random() * 20) + 30,
       nonViolent: Math.floor(Math.random() * 30) + 70,

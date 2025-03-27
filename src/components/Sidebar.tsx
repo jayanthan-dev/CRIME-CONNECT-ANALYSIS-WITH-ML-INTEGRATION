@@ -16,6 +16,8 @@ import { useAuth } from '../context/AuthContext';
 const Sidebar: React.FC = () => {
   const { user, logout } = useAuth();
   
+
+  
   const menuItems = [
     { icon: Home, label: 'Dashboard', path: '/' },
     { icon: Map, label: 'Crime Map', path: '/crime-map' },

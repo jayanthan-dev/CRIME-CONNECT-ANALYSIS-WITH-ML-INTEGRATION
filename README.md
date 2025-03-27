@@ -30,7 +30,7 @@ The **CrimeHotspotMapping** project aims to develop an advanced crime analysis a
 
 ## Installation
 
-To run the **CrimeHotspotMapping** system locally, follow these steps:
+To run the **CrimeHotspotMapping** system locally, follow these steps as listed below:
 
 ### Prerequisites
 

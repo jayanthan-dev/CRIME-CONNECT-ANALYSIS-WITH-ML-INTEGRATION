@@ -336,6 +336,7 @@ const Dashboard: React.FC = () => {
             <div className="flex space-x-2">
               {filterOptions.map((option) => (
                 <button
+                
                   key={option.value}
                   onClick={() => setActiveFilter(option.value)}
                   className={`px-3 py-1 rounded-full text-xs transition ${

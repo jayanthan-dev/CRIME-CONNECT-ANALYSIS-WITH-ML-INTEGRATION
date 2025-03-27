@@ -51,6 +51,7 @@ const Navbar: React.FC = () => {
       </div>
     </motion.nav>
   );
+  
 };
 
 export default Navbar;

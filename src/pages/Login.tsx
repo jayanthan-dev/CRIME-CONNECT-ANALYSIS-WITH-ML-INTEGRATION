@@ -361,7 +361,7 @@ const Login: React.FC = () => {
             />
             <p className="text-xs text-gray-400 flex items-center justify-center">
               <Shield size={12} className="text-blue-400 mr-1" />
-              Thoothukudi Police Department • Secure Login
+                Police Department • Secure Login
             </p>
           </motion.div>
         </motion.div>

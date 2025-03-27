@@ -52,7 +52,7 @@ const Officers: React.FC = () => {
     designation: 'ADDITIONAL SUPERINTENDENT OF POLICE - ADSP',
     landline: '0461-2330111, 0461-2340200',
     mobile: '9498102858',
-    email: 'test@gmail.comm',
+    email: 'test@gmail.com',
     },
     {
     division: 'Kovilpatti',

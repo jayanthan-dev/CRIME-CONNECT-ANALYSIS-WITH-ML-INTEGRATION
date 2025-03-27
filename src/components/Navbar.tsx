@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <span className="text-xl font-semibold text-gray-800">
-              CrimeSpot - Thoothukudi Police
+              CrimeSpot -Police
             </span>
           </div>
           

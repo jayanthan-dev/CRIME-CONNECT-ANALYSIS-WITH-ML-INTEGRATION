@@ -40,20 +40,11 @@ Ensure you have the following software installed on your machine:
 - **npm** or **yarn**
 
  
-
-
-#ppt
-[Crime Hotspot Mapping (2).pdf](https://github.com/user-attachments/files/19477657/Crime.Hotspot.Mapping.2.pdf)
-
-#video
- https://drive.google.com/file/d/1fVoQ3GMF4yDXRXFggYjkDtIArzWF2Jwz/view?usp=sharing
-
- 
  #Workflow 
   https://claude.site/artifacts/8e41fe9f-1601-4b84-8226-39e3172b7af6
   
-#Docs
-https://docs.google.com/document/d/1qD4dkzJca0FtViJ-aQ5No2evbQCkDl4dwPAd0x9YOYY/edit?usp=sharing
+
+#Demo: https://crimespot-blackarch.web.app/
   
 ### Clone the Repository
 

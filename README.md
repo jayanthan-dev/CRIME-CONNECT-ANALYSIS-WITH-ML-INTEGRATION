@@ -53,4 +53,8 @@ git clone https://github.com/yourusername/crimehotspotmapping.git
 cd crimehotspotmapping
 npm i
 npm run dev 
+pip install -r requirements.txt\n
+   python data/generate_synthetic.py\n
+   python train_model.py\n
+   python -m app.app\n
 

@@ -13,15 +13,24 @@
     "@mui/material": "^6.4.8",
     "@supabase/supabase-js": "^2.39.7",
     "@tanstack/react-query": "^5.24.1",
+    "axios": "^1.11.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
     "framer-motion": "^11.18.2",
     "lucide-react": "^0.344.0",
     "mapbox-gl": "^3.1.2",
+    "multer": "^2.0.2",
+    "mysql2": "^3.14.5",
     "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.0",
     "react-dom": "^18.3.1",
     "react-map-gl": "^7.1.7",
     "react-router-dom": "^6.22.2",
     "react-toastify": "^11.0.5",
-    "recharts": "^2.12.2"
+    "recharts": "^2.12.2",
+    "sequelize": "^6.37.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
@@ -33,10 +42,11 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.11",
     "globals": "^15.9.0",
+    "nodemon": "^3.1.10",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
-    "vite": "^5.4.2"
+    "vite": "^7.1.4"
   }
 }

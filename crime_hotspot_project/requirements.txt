@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+joblib
+flask
+geopandas
+shapely
+folium
+matplotlib
+ortools

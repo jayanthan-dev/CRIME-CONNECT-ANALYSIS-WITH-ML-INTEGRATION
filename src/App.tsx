@@ -58,8 +58,8 @@ function AppRoutes() {
         </ProtectedRoute>
       }>
         <Route index element={<Dashboard />} />
-        <Route path="crime-map" element={<CrimeMap />} />
-        <Route path="reports" element={<Reports />} />
+        <Route path="crime-map" element={<CrimeMap/>} />
+        <Route path="reports" element={<Reports/>} />
         <Route path="analytics" element={<Analytics />} />
         <Route path="officers" element={
           <AdminRoute>
